@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:todo_app/utils/favourites.dart';
 
 class DetailPage extends StatefulWidget {
   final List<Map<String, dynamic>>? itemList;

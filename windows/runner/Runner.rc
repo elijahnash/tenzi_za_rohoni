@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "ke.co.mydeals" "\0"
-            VALUE "FileDescription", "todo_app" "\0"
+            VALUE "FileDescription", "tenzi_za_rohoni" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "todo_app" "\0"
+            VALUE "InternalName", "tenzi_za_rohoni" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2023 ke.co.mydeals. All rights reserved." "\0"
-            VALUE "OriginalFilename", "todo_app.exe" "\0"
-            VALUE "ProductName", "todo_app" "\0"
+            VALUE "OriginalFilename", "tenzi_za_rohoni.exe" "\0"
+            VALUE "ProductName", "tenzi_za_rohoni" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

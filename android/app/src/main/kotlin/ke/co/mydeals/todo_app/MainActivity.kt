@@ -1,4 +1,4 @@
-package ke.co.mydeals.todo_app
+package ke.co.mydeals.tenzi_za_rohoni
 
 import io.flutter.embedding.android.FlutterActivity
 

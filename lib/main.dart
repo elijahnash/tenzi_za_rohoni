@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:todo_app/screens/detail_page.dart';
+import 'package:tenzi_za_rohoni/screens/detail_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -61,7 +61,7 @@ class _ClickableListScreenState extends State<ClickableListScreen> {
 
   Future<void> loadJsonData() async {
     // Load JSON data from the external file
-    String jsonData = await rootBundle.loadString('assets/songs.json');
+    String jsonData = await rootBundle.loadString('assets/tenzi.json');
 
     // Parse JSON and convert it into a List of items
     setState(() {

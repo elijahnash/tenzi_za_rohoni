@@ -1,6 +1,6 @@
-# todo_app
+# tenzi_za_rohoni
 
-My first finished flutter app, a ToDo list app
+Kitabu cha Tenzi za Rohoni
 
 ## Getting Started
 
