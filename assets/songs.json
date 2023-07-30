@@ -1,0 +1,27 @@
+[
+    {
+      "song": 1,
+      "title": "Mwokozi Umeokoa", 
+      "subtitle": "Lord, the saviour",
+      "chorus": {
+        "1": "Utukufu, Halleluya!",
+        "2": "Sifa kwa Mwana Kondoo!",
+        "3": "Damu imenisafisha,",
+        "4": "Utukufu kwa Yesu!"
+    }
+    },
+    {
+      "title": "Twamsifu Mungu", 
+      "subtitle": "We praise thee, Oh Lord",
+      "chorus": "Aleluya! Usifiwe; Aleluya! Amin.\nAleluya! Usifiwe, utubariki.",
+      "song": 2
+    },
+    {
+      "title": "Hata ndimi elfu", 
+      "subtitle": "A thousand tongues",
+      "chorus": " Aleluya! Usifiwe; Aleluya! Amin. \nAleluya! Usifiwe, utubariki.",
+      "song": 3
+    }
+    
+  ]
+  
