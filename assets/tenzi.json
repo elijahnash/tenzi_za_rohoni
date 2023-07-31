@@ -1,106 +1,104 @@
 [
     {
-        "song_1": {
-            "song_number": 1,
-            "title": "Mwokozi Umeokoa",
-            "subtitle": "",
+        "song_number": 1,
+        "title": "Mwokozi Umeokoa",
+        "subtitle": "Precious Saviour",
 
-            "stancer_1": {
-                "1":"Mwokozi umeokoa,",
-                "2":"Nimekuwa wako wewe.",
-                "3":"Damu imenisafisha;",
-                "4":"Sifa kwa mwana Kondoo."  
-            },
+        "stancer_1": [
+            "Mwokozi umeokoa,",
+            "Nimekuwa wako wewe.",
+            "Damu imenisafisha;",
+            "Sifa kwa mwana Kondoo."  
+        ],
 
-            "chorus": {
-                "1": "Utukufu, Halleluya!",
-                "2": "Sifa kwa Mwana Kondoo!",
-                "3": "Damu imenisafisha,",
-                "4": "Utukufu kwa Yesu!"
-            },
+        "chorus": [
+            "Utukufu, Halleluya!",
+            "Sifa kwa Mwana Kondoo!",
+            "Damu imenisafisha,",
+            "Utukufu kwa Yesu!"
+        ],
 
-            "stancer_2": {
-                "1": "Nilijitahidi sana",
-                "2": "Ila sikupata raha;",
-                "3": "Bali kwa kumtegemea",
-                "4": "Nilipata Baraka."
-            },
+        "stancer_2": [
+            "Nilijitahidi sana",
+            "Ila sikupata raha;",
+            "Bali kwa kumtegemea",
+            "Nilipata Baraka."
+        ],
 
-            "stancer_3": {
-                "1": "Daima namwegemea",
-                "2": "Damu ikifanya kazi,",
-                "3": "Nikioga kwa chemichemi",
-                "4": "Itokayo Mwokozi."
-            },
+        "stancer_3": [
+            "Daima namwegemea",
+            "Damu ikifanya kazi,",
+            "Nikioga kwa chemichemi",
+            "Itokayo Mwokozi."
+        ],
 
-            "stancer_4": {
-                "1": "Sasa nimewekwa wakfu;",
-                "2": "Nitaishi kwako wewe:",
-                "3": "Fahari nashuhudia",
-                "4": "Ya wokovu wa bure."
-            },
+        "stancer_4": [
+            "Sasa nimewekwa wakfu;",
+            "Nitaishi kwako wewe:",
+            "Fahari nashuhudia",
+            "Ya wokovu wa bure."
+        ],
 
-            "stancer_5": {
-                "1": "Nasimama kwake Yesu,",
-                "2": "Ameponya roho yangu;",
-                "3": "Ameniondoa dhambi,",
-                "4": "Anifanye mzima."
-            },
+        "stancer_5": [
+            "Nasimama kwake Yesu,",
+            "Ameponya roho yangu;",
+            "Ameniondoa dhambi,",
+            "Anifanye mzima."
+        ],
 
-            "stancer_6": {
-                "1": "Nilikuwa kifungoni,",
-                "2": "Niliteswa na dhambi,",
-                "3": "Nilifungwa minyororo",
-                "4": "Yesu akanifungua."
-            },
+        "stancer_6": [
+            "Nilikuwa kifungoni,",
+            "Niliteswa na dhambi,",
+            "Nilifungwa minyororo",
+            "Yesu akanifungua."
+        ],
 
-            "stancer_7": {
-                "1": "Sifa, ameninunua!",
-                "2": "Sifa, nguvu za wokovu!",
-                "3": "Sifa, Bwana huhifadhi!",
-                "4": "Sifa zake milele."
-            }
-        },
+        "stancer_7": [
+            "Sifa, ameninunua!",
+            "Sifa, nguvu za wokovu!",
+            "Sifa, Bwana huhifadhi!",
+            "Sifa zake milele."
+        ]
+    },
 
-        "song_2": {
-            "song_number": 2,
-            "title": "Twamsifu Mungu",
-            "subtitle": "",
+    {
+        "song_number": 2,
+        "title": "Twamsifu Mungu",
+        "subtitle": "We praise Thee, Oh God",
 
-            "stancer_1": {
-                "1":"Twamsifu Mungu",
-                "2":"kwa Mwana wa Pendo,",
-                "3":"Aliyetufia na kupaa juu."
-            },
+        "stancer_1": [
+            "Twamsifu Mungu",
+            "kwa Mwana wa Pendo,",
+            "Aliyetufia na kupaa juu."
+        ],
 
-            "chorus": {
-                "1": "Aleluya! Usifiwe; Aleluya! Amin.",
-                "2": "Aleluya! Usifiwe, utubariki."
-            },
+        "chorus": [
+            "Aleluya! Usifiwe; Aleluya! Amin.",
+            "Aleluya! Usifiwe, utubariki."
+        ],
 
-            "stancer_2": {
-                "1": "Twamsifu Mungu",
-                "2": "kwa Roho Mtukufu,",
-                "3": "Ametufunulia Mwokozi wetu."
-            },
+        "stancer_2": [
+            "Twamsifu Mungu",
+            "kwa Roho Mtukufu,",
+            "Ametufunulia Mwokozi wetu."
+        ],
 
-            "stancer_3": {
-                "1": "Twamsifu Mwana,",
-                "2": "aliyetufia,",
-                "3": "Aliyetwaa dhambi akazifuta."
-            },
+        "stancer_3": [
+            "Twamsifu Mwana,",
+            "aliyetufia,",
+            "Aliyetwaa dhambi akazifuta."
+        ],
 
-            "stancer_4": {
-                "1": "Twamsifu Mungu",
-                "2": "wa neema yote,",
-                "3": "Ametukomboa akatuongoza."
-            },
+        "stancer_4": [
+            "Twamsifu Mungu",
+            "wa neema yote,",
+            "Ametukomboa akatuongoza."
+        ],
 
-            "stancer_5": {
-                "1": "Tuamshe tena,",
-                "2": "tujazena pendo,",
-                "3": "Na moyoni uwashe moto wa Roho."
-            }
-        }
+        "stancer_5": [
+            "Tuamshe tena,",
+            "tujazena pendo,",
+            "Na moyoni uwashe moto wa Roho."
+        ]
     }
 ]

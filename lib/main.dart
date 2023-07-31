@@ -112,7 +112,7 @@ class _ClickableListScreenState extends State<ClickableListScreen> {
             title: Text(itemList![index]['title']),
             subtitle: Text(itemList![index]['subtitle']),
             leading: CircleAvatar(
-              child: Text(itemList!.length.toString()),
+              child: Text((index + 1).toString()),
             ),
             onTap: () {
               // Navigate to a new page with the item's details as arguments
