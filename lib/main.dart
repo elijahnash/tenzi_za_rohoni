@@ -2,7 +2,8 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:tenzi_za_rohoni/screens/detail_page.dart';
+import 'package:tenzi_za_rohoni/screens/details_page.dart';
+import 'package:tenzi_za_rohoni/utils/header_drawer.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Clickable List Demo',
+      title: 'Tenzi za Rohoni',
       theme: ThemeData(primarySwatch: Colors.blue),
       home: const ClickableListScreen(),
     );
@@ -75,6 +76,7 @@ class _ClickableListScreenState extends State<ClickableListScreen> {
       return Scaffold(
         appBar: AppBar(
           title: const Text('Tenzi za Rohoni'),
+          backgroundColor: Colors.amber[900],
         ),
         body: const Center(
           child:
@@ -86,6 +88,19 @@ class _ClickableListScreenState extends State<ClickableListScreen> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Tenzi za Rohoni'),
+        backgroundColor: Colors.amber[900],
+      ),
+      drawer: Drawer(
+        child: SingleChildScrollView(
+          child: Container(
+            child: const Column(
+              children: [
+                HeaderDrawer(),
+                // DrawerList(),
+              ],
+            ),
+          ),
+        ),
       ),
       body: ListView.builder(
         itemCount: itemList!.length,
@@ -112,7 +127,13 @@ class _ClickableListScreenState extends State<ClickableListScreen> {
             title: Text(itemList![index]['title']),
             subtitle: Text(itemList![index]['subtitle']),
             leading: CircleAvatar(
-              child: Text((index + 1).toString()),
+              backgroundColor: Colors.amber[500],
+              child: Text(
+                (index + 1).toString(),
+                style: const TextStyle(
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
             ),
             onTap: () {
               // Navigate to a new page with the item's details as arguments
