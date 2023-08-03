@@ -2,8 +2,9 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:tenzi_za_rohoni/screens/app_drawer.dart';
 import 'package:tenzi_za_rohoni/screens/details_page.dart';
-import 'package:tenzi_za_rohoni/utils/header_drawer.dart';
+import 'package:tenzi_za_rohoni/utils/search.dart';
 
 void main() {
   runApp(const MyApp());
@@ -34,12 +35,26 @@ class ClickableListScreen extends StatefulWidget {
 class _ClickableListScreenState extends State<ClickableListScreen> {
   List<Map<String, dynamic>>? itemList; // Make itemList nullable
   List<int> favoritesList = [];
+  List<Map<String, dynamic>> _searchResults = [];
+  String _searchQuery = '';
 
   @override
   void initState() {
     super.initState();
     loadJsonData(); // Call the method to load JSON data
     loadFavourites();
+  }
+
+  // Method to update the search results
+  void _updateSearchResults(String query) {
+    setState(() {
+      _searchQuery = query;
+      if (_searchQuery.isNotEmpty) {
+        _searchResults = SongSearch.searchSongs(itemList!, _searchQuery);
+      } else {
+        _searchResults.clear();
+      }
+    });
   }
 
   Future<void> loadFavourites() async {
@@ -88,20 +103,36 @@ class _ClickableListScreenState extends State<ClickableListScreen> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Tenzi za Rohoni'),
-        backgroundColor: Colors.amber[900],
-      ),
-      drawer: Drawer(
-        child: SingleChildScrollView(
-          child: Container(
-            child: const Column(
-              children: [
-                HeaderDrawer(),
-                // DrawerList(),
-              ],
-            ),
+        backgroundColor: Colors.amber[600],
+        actions: [
+          // Add the search icon button to the AppBar
+          IconButton(
+            icon: const Icon(Icons.search),
+            onPressed: () {
+              showSearch(
+                context: context,
+                delegate: SongSearchDelegate(
+                  itemList: itemList!,
+                  searchResults: _searchResults,
+                  searchQuery: _searchQuery,
+                  updateSearchResults: _updateSearchResults,
+                ),
+              );
+            },
           ),
-        ),
+        ],
       ),
+      drawer: const AppDrawer(),
+      // drawer: const Drawer(
+      //   child: SingleChildScrollView(
+      //     child: Column(
+      //       children: [
+      //         HeaderDrawer(),
+      //         // DrawerList(),
+      //       ],
+      //     ),
+      //   ),
+      // ),
       body: ListView.builder(
         itemCount: itemList!.length,
         itemBuilder: (BuildContext context, int index) {
@@ -131,8 +162,7 @@ class _ClickableListScreenState extends State<ClickableListScreen> {
               child: Text(
                 (index + 1).toString(),
                 style: const TextStyle(
-                  fontWeight: FontWeight.bold,
-                ),
+                    fontWeight: FontWeight.bold, color: Colors.black),
               ),
             ),
             onTap: () {

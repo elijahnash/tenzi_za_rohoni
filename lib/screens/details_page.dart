@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../share.dart';
+import '../utils/share.dart';
 
 class DetailPage extends StatefulWidget {
   final List<Map<String, dynamic>>? itemList;

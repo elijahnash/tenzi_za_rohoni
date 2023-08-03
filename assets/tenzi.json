@@ -159,7 +159,10 @@
         "subtitle": "All hail for the power of Jesus' name",
 
         "stanza_1": [
-            
+            "Jina la Yesu, Salamu!",
+            "Lisujudieni,",
+            "Ninyi Mbinguni, hukumu",
+            "Na enzi mpeni."
         ],
 
         "chorus": [
@@ -167,36 +170,52 @@
         ],
 
         "stanza_2": [
-            
+            "Enzi na apewe kwetu,",
+            "Watetea dini;",
+            "Mkuzeni Bwana wenu,",
+            "Na enzi mpeni."
         ],
 
         "stanza_3": [
-            
+            "Enyi mbegu ya rehema,",
+            "Nanyi msifuni;",
+            "Mmeponywa kwa neema,",
+            "Na enzi mpeni."
         ],
 
         "stanza_4": [
-            
+            "Wenye dhambi kumbukeni",
+            "Ya msalabani,",
+            "Kwa furaha msifuni,",
+            "Na enzi mpeni."
         ],
 
         "stanza_5": [
-            
+            "Kila mtu duniani",
+            "Msujudieni,",
+            "Kote-kote msifuni,",
+            "Na enzi mpeni."
         ],
 
         "stanza_6": [
-            
-        ],
-
-        "stanza_7": [
-            
+            "Sisi na wao pamoja",
+            "Tu mumo sifani,",
+            "Milele sifa ni moja,",
+            "Ni “Enzi mpeni.”"
         ]
+
+        
     },
     {
         "song_number": 5,
-        "title": "",
-        "subtitle": "",
+        "title": "Jina Lake Yesu Tamu",
+        "subtitle": "How sweet the name of jesus",
 
         "stanza_1": [
-            
+            "Jina lake Yesu tamu;",
+            "Tukilisikia",
+            "Hutupoza, tena hamu",
+            "Hutuondolea"
         ],
 
         "chorus": [
@@ -204,36 +223,55 @@
         ],
 
         "stanza_2": [
-            
+            "Roho iliyoumia",
+            "Kwalo hutibika,",
+            "Chakula, njaani pia;",
+            "Raha, tukichoka."
         ],
 
         "stanza_3": [
-            
+            "Jina hili ni msingi,",
+            "Ngao, ngome, mwamba,",
+            "Kwa hili napata wingi,",
+            "Kwangu ni akiba."
         ],
 
         "stanza_4": [
-            
+            "Yesu, Mchunga, Rafiki",
+            "Mwalimu, Kuhani,",
+            "Mwanzo, Mwisho, Njia, Haki,",
+            "Uzima kifoni."
         ],
 
         "stanza_5": [
-            
+            "Moyo wangu hauwezi,",
+            "Kukusifu kweli,",
+            "Ila sifa zangu hizi,",
+            "Bwana zikubali"
         ],
 
         "stanza_6": [
-            
-        ],
-
-        "stanza_7": [
-            
+            "Na utakaponiita,",
+            "Kuja kwako Bwana,",
+            "Huko kwako sitaacha",
+            "Kukusifu sana."
         ]
+
+            
+        
     },
     {
         "song_number": 6,
-        "title": "",
-        "subtitle": "",
+        "title": "Baba Mwana Roho",
+        "subtitle":"Holy Holy Holy God almighty",
 
         "stanza_1": [
-            
+            "Baba, Mwana, Roho,",
+            "Mungu mwenye enzi,",
+            "Kila tukiamka tunakuabudu",
+            "Baba, Mwana,",
+            "Roho, Mungu wa mapenzi,",
+            "Ewe Utatu, tunakusifu."
         ],
 
         "chorus": [
@@ -241,73 +279,97 @@
         ],
 
         "stanza_2": [
-            
+            "Baba, Mwana, Roho, wakuaminio",
+            "Wanakutolea shukrani zao",
+            "Wanakusujudia malaika nao:",
+            "Wewe u mwanzo, nawe u mwisho."
         ],
 
         "stanza_3": [
-            
+            "Baba, Mwana, Roho, sisi tu gizani,",
+            "Utukufu wako hatuoni kosa;",
+            "U Mtakatifu, nawe u mapenzi,",
+            "U peke yako, mwenzio huna."
         ],
 
         "stanza_4": [
-            
-        ],
-
-        "stanza_5": [
-            
-        ],
-
-        "stanza_6": [
-            
-        ],
-
-        "stanza_7": [
-            
+            "Baba, Mwana, Roho,",
+            "Mungu mwenye enzi,",
+            "Ulivyoviumba vyote vyakusifu:",
+            "Baba, Mwana, Roho,",
+            "Mungu wa mapenzi",
+            "Ewe Utatu, tunakusifu"
         ]
     },
     {
         "song_number": 7,
-        "title": "",
-        "subtitle": "",
+        "title": "Ni Tabibu Wa Karibu",
+        "subtitle": "The great physian now is near",
 
         "stanza_1": [
-            
+            "Ni tabibu wa karibu;",
+            "Tabibu wa ajabu;",
+            "Na rehema za daima;",
+            "Ni dawa yake njema"
         ],
 
         "chorus": [
-            
+            "Imbeni, malaika,",
+            "Sifa za Yesu Bwana;",
+            "Pweke limetukuka",
+            "Jina lake Yesu"
         ],
 
         "stanza_2": [
-            
+            "Hatufai kuwa hai,",
+            "Wala hatutumai,",
+            "Ila kweli yeye ndiye",
+            "Atupumzishaye"
         ],
 
         "stanza_3": [
-            
+            "Dhambi pia na hatia",
+            "Ametuchukulia;",
+            "Twendeni na amani",
+            "Hata kwake Mbinguni."
         ],
 
         "stanza_4": [
-            
+            "Huliona tamu jina",
+            "La Yesu Kristo Bwana,",
+            "Yuna sifa mwenye kufa",
+            "Asishindwe na kufa"
         ],
 
         "stanza_5": [
-            
+            "Kila mume asimame,",
+            "Sifa zake zivume;",
+            "Wanawake na washike",
+            "Kusifu jina lake"
         ],
 
         "stanza_6": [
-            
-        ],
-
-        "stanza_7": [
-            
-        ]
+            "Na vijana wote tena,",
+            "Wapendao sana",
+            "Waje kwake wawe wake",
+            "Kwa utumishi wake"
+        ]     
+        
     },
     {
         "song_number": 8,
-        "title": "",
-        "subtitle": "",
+        "title": "Taji Mvikeni",
+        "subtitle":"Crown him with many crowns ",
 
         "stanza_1": [
-            
+            "Taji mvikeni,",
+            "Taji nyingi tena,",
+            "Kondoo mwake kitini,",
+            "Bwana wa mabwana;",
+            "Name tamsifu",
+            "Alikufa kwangu,",
+            "Ni mfalme mtukufu,",
+            "Mkuu wa Mbingu."
         ],
 
         "chorus": [
@@ -315,36 +377,42 @@
         ],
 
         "stanza_2": [
-            
+            "Taji mvikeni",
+           " Mwana wa bikira;",
+            "Anazovaa kichwani",
+            "Aliteka nyara;",
+            "Shiloh wa wanabii,",
+            "Mchunga wa watu,",
+            "Shina na tanzu vya Yese,",
+            "Wa Bethirehemu."
         ],
 
         "stanza_3": [
-            
-        ],
-
-        "stanza_4": [
-            
-        ],
-
-        "stanza_5": [
-            
-        ],
-
-        "stanza_6": [
-            
-        ],
-
-        "stanza_7": [
-            
-        ]
+            "Taji mvikeni",
+            "Bwana wa mapenzi;",
+            "Jeraha zake ni shani",
+            "Ni vito vya enzi,",
+            "Mbinguni hakuna",
+            "Hata malaika",
+            "Awezaye kuziona",
+            "Pasipo kushangaa"
+        ]     
+        
     },
     {
         "song_number": 9,
-        "title": "",
-        "subtitle": "",
+        "title":  "Yesu Kwetu ni Rafiki",
+        "subtitle":" What a friend we have in jesus",
 
         "stanza_1": [
-            
+            "'Yesu kwetu ni rafiki,",
+            "Hwamiwa haja pia;",
+            "Tukiomba kwa Babaye",
+            "Maombi asikia;",
+            "Lakini twajikosesha,",
+            "Twajitweka vibaya;",
+            "Kwamba tulimwomba Mungu",
+            "Dua angesikia"
         ],
 
         "chorus": [
@@ -352,110 +420,126 @@
         ],
 
         "stanza_2": [
-            
+            "Una dhiki na maonjo?",
+            "Una mashaka pia.",
+            "Haifai kufa moyo,",
+            "Dua atasikia",
+            "Hakuna mwingine mwema",
+            "Wa kutuhurumia;",
+            "Atujua tu dhaifu;",
+            "Maombi asikia."
         ],
 
         "stanza_3": [
-            
-        ],
-
-        "stanza_4": [
-            
-        ],
-
-        "stanza_5": [
-            
-        ],
-
-        "stanza_6": [
-            
-        ],
-
-        "stanza_7": [
-            
+            "Je, hunayo hata nguvu,",
+            "Huwezi kuendelea,",
+            "Ujapodharauliwa",
+            "Ujaporushwa pia,",
+            "Watu wange kudharau,",
+            "Wapendao dunia,",
+            "Hukwambata mikononi,",
+            "Dua atasikia."
         ]
+            
     },
     {
         "song_number": 10,
-        "title": "",
-        "subtitle": "",
+        "title": "Usinipite Mwokozi",
+        "subtitle": "Pass me not",
 
         "stanza_1": [
-            
+            "Usinipite Mwokozi,",
+            "Unisikie;",
+            "Unapozuru wengine,",
+            "Usinipite"
         ],
 
         "chorus": [
-            
+            "Yesu,Yesu,",
+            "Unisikie;",
+            "Unapozuru wengine,",
+            "Usinipite."
         ],
 
         "stanza_2": [
-            
+            "Kiti chako cha rehema,",
+            "Nakitazama;",
+            "Magoti napiga pale,",
+            "Nisamehewe."
         ],
 
         "stanza_3": [
-            
+            "Sina ya kutegemea,",
+            "Ila Wewe tu;",
+            "Uso wako uwe kwangu;",
+            "Nakuabudu."
         ],
 
         "stanza_4": [
-            
-        ],
-
-        "stanza_5": [
-            
-        ],
-
-        "stanza_6": [
-            
-        ],
-
-        "stanza_7": [
-            
+            "U Mfariji peke yako;",
+            "Sina Mbinguni,",
+            "Wala duniani pote,",
+            "Bwana mwingine"
         ]
     },
     {
         "song_number": 11,
-        "title": "",
-        "subtitle": "",
+        "title": "Nina Haja Nawe",
+        "Subtitle": "I need thee every hour",                                       
 
         "stanza_1": [
-            
+            "Nina haja nawe",
+            "Kila saa;",
+            "Hawezi mwingine",
+            "Kunifaa."
         ],
 
         "chorus": [
-            
+            "Yesu, nakuhitaji",
+            "Vivyo kila saa!",
+            "Niwezeshe, Mwokozi,",
+            "Nakujia."
         ],
 
         "stanza_2": [
-            
+            "Nina haja nawe;",
+            "Kaa nami,",
+            "Na maonjo haya,",
+            "Hayaumi."
         ],
 
         "stanza_3": [
-            
+            "Nina haja nawe;",
+            "Kila hali,",
+            "Maisha ni bure,",
+            "Uli mbali."
         ],
 
         "stanza_4": [
-            
+            "Nina haja nawe,",
+            "Nifundishe",
+            "Na ahadi zako",
+            "Zifikishe."
         ],
 
         "stanza_5": [
-            
-        ],
-
-        "stanza_6": [
-            
-        ],
-
-        "stanza_7": [
-            
+            "Nina haja nawe,",
+            "Mweza yote,",
+            "Ni wako kabisa",
+            "Siku zote."
         ]
+
     },
     {
         "song_number": 12,
-        "title": "",
-        "subtitle": "",
+        "title": "Ewe Roho Wa Mungu",
+        "subtitle": "Spirit divine attend our prayer",
 
         "stanza_1": [
-            
+            "Ewe Roho wa Mbinguni",
+            "Uje kwetu sasa.",
+            "Ufanye makazi yako",
+            "Ndani ya Kanisa."
         ],
 
         "chorus": [
@@ -463,36 +547,44 @@
         ],
 
         "stanza_2": [
-            
+            "Ndiwe mwanga, umulike",
+            "Tupate jikana;",
+            "Mengi kwetu yapunguka,",
+            "Tujalize, Bwana"
         ],
 
         "stanza_3": [
-            
+            "Ndiwe Moto, teketeza",
+            "Taka zetu zote:",
+            "Moyo na iwe sadaka",
+            "Ya Mwokozi, yote."
         ],
 
         "stanza_4": [
-            
+            "Ndiwe Umande, na kwako",
+            "Tutaburudika,",
+            "Nchi kavu itakuwa",
+            "Ni yenye Baraka"
         ],
 
         "stanza_5": [
-            
-        ],
-
-        "stanza_6": [
-            
-        ],
-
-        "stanza_7": [
-            
+            "Roho wa Mbinguni uwe",
+            "Nasi hapa chini,",
+            "Mwili uufananishe",
+            "Na kichwa Mbinguni."
         ]
+
     },
     {
         "song_number": 13,
-        "title": "",
-        "subtitle": "",
+        "title":  "Tafuta Daima Utakatifu",
+        "subtitle": "Take time to be holy",
 
         "stanza_1": [
-            
+            "Tafuta daima utakatifu;",
+            "Fanya urafiki na Wakristo tu;",
+            "Nena siku zotena Bwana wako,",
+            "Baraka uombe kwa kila jambo."
         ],
 
         "chorus": [
@@ -500,36 +592,39 @@
         ],
 
         "stanza_2": [
-            
+            "Tafuta daima utakatifu;",
+            "Uwe peke yako ukimwabudu;",
+            "Ukimwangalia mwokozi wako,",
+            "Utabadilishwa kama alivyo." 
         ],
 
         "stanza_3": [
-            
+            "Tafuta daima utakatifu;",
+            "Kiongozi wako aew Yesu tu;",
+            "Katika furaha au huzuni",
+            "Dumu kumfuata Yesu Mwokozi"
         ],
 
         "stanza_4": [
-            
-        ],
-
-        "stanza_5": [
-            
-        ],
-
-        "stanza_6": [
-            
-        ],
-
-        "stanza_7": [
-            
+            "Tafuta daima utakatifu;",
+            "Umtawaze Roho moyoni mwako;",
+            "Akikuongoza katika haki,",
+            "Hufanywa tayari kwa kazi yake."
         ]
     },
     {
         "song_number": 14,
-        "title": "",
-        "subtitle": "",
+        "title": "Yesu Kwa imani",
+        "subtitle": "My faith looks up to thee",
 
         "stanza_1": [
-            
+            "Yesu kwa imani,",
+            "Nakutumaini,",
+            "Peke yako;",
+            "Nisikie sasa,",
+            "Na kunitakasa,",
+            "Ni wako kabisa",
+            "Tangu leo."
         ],
 
         "chorus": [
@@ -537,138 +632,159 @@
         ],
 
         "stanza_2": [
-            
+            "Nipe nguvu pia",
+            "Za kusaidia",
+            "Moyo wangu;",
+            "Ulikufa wewe,",
+            "Wokovu nipewe",
+            "Nakupenda wewe,",
+            "Bwana wangu."
         ],
 
         "stanza_3": [
-            
+            "Hapa nazunguka",
+            "Katika mashaka,",
+            "Na matata;",
+            "Palipo na giza",
+            "Utaniongoza",
+            "Hivi nitaweza",
+            "Kufuata."
         ],
 
         "stanza_4": [
-            
-        ],
-
-        "stanza_5": [
-            
-        ],
-
-        "stanza_6": [
-            
-        ],
-
-        "stanza_7": [
-            
+            "Takuwa mzima",
+            "Nivushe salama",
+            "Mautini;",
+            "Sina hofu kamwe",
+            "Ukiwapo name",
+            "Nami nikwandame",
+            "Siku zote." 
         ]
     },
     {
         "song_number": 15,
-        "title": "",
-        "subtitle": "",
+        "title": "Cha Kutumaini sina",
+        "subtitle": "My hope is built on nothing else",
 
         "stanza_1": [
-            
+            "Chakutumaini sina",
+            "Ila damu yake Bwana,",
+            "Sina wema wa kutosha",
+            "Dhambi zangu kuziosha;"
         ],
 
         "chorus": [
-            
+            "Kwake Yesu na Simama,",
+            "Ndiye mwamba: ni salama",
+            "Ndiye mwamba: ni salama."
         ],
 
         "stanza_2": [
-            
+            "Njia yangu iwe ndefu",
+            "Yeye hunipa wokovu;",
+            "Mawimbi yakinipiga",
+            "Nguvu zake ndiyo nanga."
         ],
 
         "stanza_3": [
-            
+            "Damu yake na sadaka",
+            "Nategemea daima,",
+            "Yote chini yakiisha",
+            "Mwokozi atanitosha."
         ],
 
         "stanza_4": [
-            
-        ],
-
-        "stanza_5": [
-            
-        ],
-
-        "stanza_6": [
-            
-        ],
-
-        "stanza_7": [
-            
+            "Nikiitwa hukumuni,",
+            "Rohoni nina amani",
+            "Nikivikwa haki yake",
+            "Sina hofu mbele zake."
         ]
+
     },
     {
         "song_number": 16,
-        "title": "",
-        "subtitle": "",
+        "title":  "Kumtegemea Mwokozi",
+        "subtitle": "It is so sweet to trust in jesus",
 
         "stanza_1": [
-            
+            "Kumtegemea Mwokozi",
+            "Kwangu tamu kabisa;",
+            "Kukubali neno lake",
+            "Nina raha moyoni"
         ],
 
         "chorus": [
-            
+            "Yesu,Yesu namwamini,",
+            "Nimemwona thabiti;",
+            "Yesu,Yesu,yu thamani,",
+            "Ahadi zake kweli."
         ],
 
         "stanza_2": [
-            
+            "Kumtegemea Mwokozi,",
+            "Kwangu tamu kabisa,",
+            "Kuamini damu yake",
+            "Nimeoshwa kamili."
         ],
 
         "stanza_3": [
-            
+            "Kumtegemea Mwokozi,",
+            "Kwangu tamu kabisa,",
+            "Kwake daima napata",
+            "Uzima na amani."
         ],
 
         "stanza_4": [
-            
-        ],
-
-        "stanza_5": [
-            
-        ],
-
-        "stanza_6": [
-            
-        ],
-
-        "stanza_7": [
-            
+             "Nafurahi kwa sababu",
+            "Nimekutegemea;",
+            "Yesu,Mpendwa na Rafiki",
+            "Uwe nami dawamu."
         ]
+  
     },
     {
         "song_number": 17,
-        "title": "",
-        "subtitle": "",
+        "title": "Namwandama Daima",
+        "subtitle": "When we walk with the lord",
 
         "stanza_1": [
-            
+            "Namwandama Bwana kwa alilonena",
+            "Njia yangu huniangazia;",
+            "Nikimridhisha atanidumisha",
+            "Taamini nitii pia."
         ],
 
         "chorus": [
-            
+            "Amini utii, njia pweke ni hii",
+            "Ya furaha kwa Yesu: amini ukatii"
         ],
 
         "stanza_2": [
-            
+            "Giza sina kwangu wala hata wingu",
+            "Yeye mara huviondoa",
+            "Woga, wasiwasi, sononeko, basi;",
+            "Huamini nitii pia."
         ],
 
         "stanza_3": [
-            
+            "Masumbuko yote, sikitiko lote;",
+            "Kwa mapenzi hunilipia;",
+            "Baa, dhara, dhiki, vivyo hubariki",
+            "Taamini nitii pia."
         ],
 
         "stanza_4": [
-            
+            "Mimi sitajua raha sawasawa",
+            "Ila yote Yesu kumpa;",
+            "Napata fadhili na radhi kamili,",
+            "Taamini nitii pia."
         ],
 
         "stanza_5": [
-            
-        ],
-
-        "stanza_6": [
-            
-        ],
-
-        "stanza_7": [
-            
+            "Nitamfurahia na kumtumaini,",
+            "Majumbani na njia-njia;",
+            "Agizo natenda, nikitumwa huenda,",
+            "Huamini nitii pia"
         ]
     },
     {
