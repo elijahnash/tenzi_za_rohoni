@@ -28,13 +28,14 @@ class _DetailPageState extends State<DetailPage> {
     return Scaffold(
       appBar: AppBar(
         title: Text("${widget.item['song_number']}. ${widget.item['title']}"),
-        backgroundColor: const Color.fromARGB(255, 255, 111, 0),
+        backgroundColor: Colors.amber[600],
         actions: [
           // Add the share icon button to the AppBar
           IconButton(
             icon: const Icon(Icons.share),
             onPressed: () => SongShare.shareSongDetails(
-                widget.item), // Call the shareSongDetails method
+              widget.item,
+            ), // Call the shareSongDetails method
           ),
         ],
       ),

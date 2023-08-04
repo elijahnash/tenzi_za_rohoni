@@ -91,11 +91,12 @@ class _ClickableListScreenState extends State<ClickableListScreen> {
       return Scaffold(
         appBar: AppBar(
           title: const Text('Tenzi za Rohoni'),
-          backgroundColor: Colors.amber[900],
+          backgroundColor: Colors.amber[600],
         ),
-        body: const Center(
-          child:
-              CircularProgressIndicator(), // Show a loading indicator while loading the JSON data
+        body: Center(
+          child: CircularProgressIndicator(
+            color: Colors.amber[600],
+          ), // Show a loading indicator while loading the JSON data
         ),
       );
     }
@@ -123,16 +124,6 @@ class _ClickableListScreenState extends State<ClickableListScreen> {
         ],
       ),
       drawer: const AppDrawer(),
-      // drawer: const Drawer(
-      //   child: SingleChildScrollView(
-      //     child: Column(
-      //       children: [
-      //         HeaderDrawer(),
-      //         // DrawerList(),
-      //       ],
-      //     ),
-      //   ),
-      // ),
       body: ListView.builder(
         itemCount: itemList!.length,
         itemBuilder: (BuildContext context, int index) {
@@ -160,7 +151,7 @@ class _ClickableListScreenState extends State<ClickableListScreen> {
             leading: CircleAvatar(
               backgroundColor: Colors.amber[500],
               child: Text(
-                (index + 1).toString(),
+                (itemList![index]['song_number']).toString(),
                 style: const TextStyle(
                     fontWeight: FontWeight.bold, color: Colors.black),
               ),

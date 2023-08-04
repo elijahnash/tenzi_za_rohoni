@@ -485,7 +485,7 @@
     {
         "song_number": 11,
         "title": "Nina Haja Nawe",
-        "Subtitle": "I need thee every hour",                                       
+        "subtitle": "I need thee every hour",                                       
 
         "stanza_1": [
             "Nina haja nawe",
@@ -789,7 +789,7 @@
     },
     {
         "song_number": 18,
-        "title": "",
+        "title": "Akifa Yesu Nikafa Naye",
         "subtitle": "",
 
         "stanza_1": [
@@ -797,7 +797,10 @@
         ],
 
         "chorus": [
-            
+            "Nyakati zote nimo pendoni,",
+            "Nyakati zote ni uzimani,",
+            "Humtazama hata atokee,",
+            "Nyakati zote mimi ni wake."
         ],
 
         "stanza_2": [
@@ -826,7 +829,7 @@
     },
     {
         "song_number": 19,
-        "title": "",
+        "title": "Ndiyo Dhamana Yesu Wangu",
         "subtitle": "",
 
         "stanza_1": [
@@ -834,7 +837,10 @@
         ],
 
         "chorus": [
-            
+            "Habari njema, raha yangu",
+            "Yesu ndiye Mwokozi wangu,",
+            "Habari njema, raha yangu",
+            "Yesu ndiye mwokozi wangu."
         ],
 
         "stanza_2": [
@@ -863,7 +869,7 @@
     },
     {
         "song_number": 20,
-        "title": "",
+        "title": "Ninaye Rafiki Naye",
         "subtitle": "",
 
         "stanza_1": [
@@ -900,7 +906,7 @@
     },
     {
         "song_number": 21,
-        "title": "",
+        "title": "Roho Yangu Hima",
         "subtitle": "",
 
         "stanza_1": [
@@ -908,7 +914,8 @@
         ],
 
         "chorus": [
-            
+            "Yesu yuko mbele, Yesu yu nyuma,",
+            "Yesu vivyo kando, walindwa vyema."
         ],
 
         "stanza_2": [
@@ -937,7 +944,7 @@
     },
     {
         "song_number": 22,
-        "title": "",
+        "title": "Kale Nilitembea",
         "subtitle": "",
 
         "stanza_1": [
@@ -945,7 +952,10 @@
         ],
 
         "chorus": [
-            
+            "Usifiwe Msalaba!",
+            "Lisifiwe kaburi!",
+            "Linalozidi yote,",
+            "Asifiwe Mwokozi!"
         ],
 
         "stanza_2": [
@@ -974,7 +984,7 @@
     },
     {
         "song_number": 23,
-        "title": "",
+        "title": "Ni Salama Rohoni Mwangu",
         "subtitle": "",
 
         "stanza_1": [
@@ -982,7 +992,8 @@
         ],
 
         "chorus": [
-            
+            "Salama rohoni,",
+            "Ni salama rohoni mwangu."
         ],
 
         "stanza_2": [
@@ -1011,7 +1022,7 @@
     },
     {
         "song_number": 24,
-        "title": "",
+        "title": "Mwokozi Moyoni Mwangu",
         "subtitle": "",
 
         "stanza_1": [
@@ -1019,7 +1030,11 @@
         ],
 
         "chorus": [
-            
+            "Amani moyoni mwangu,",
+            "kwa Yesu, Mwokozi wangu;",
+            "Sina shaka kamwe,",
+            "Kwa sababu yeye,",
+            "Yu nami moyoni mwangu."
         ],
 
         "stanza_2": [
@@ -1048,7 +1063,7 @@
     },
     {
         "song_number": 25,
-        "title": "",
+        "title": "Nimekombolewa na Yesu",
         "subtitle": "",
 
         "stanza_1": [
@@ -1056,7 +1071,10 @@
         ],
 
         "chorus": [
-            
+            "Kombolewa!",
+            "Nakombolewa na damu;",
+            "Kombolewa!",
+            "Mimi mwana wake kweli."
         ],
 
         "stanza_2": [
@@ -1085,7 +1103,7 @@
     },
     {
         "song_number": 26,
-        "title": "",
+        "title": "Yesu Unipendaye",
         "subtitle": "",
 
         "stanza_1": [
@@ -1122,7 +1140,7 @@
     },
     {
         "song_number": 27,
-        "title": "",
+        "title": "Mungu ni Pendo",
         "subtitle": "",
 
         "stanza_1": [
@@ -1130,7 +1148,8 @@
         ],
 
         "chorus": [
-            
+            "Sikilizeni furaha yangu,",
+            "Mungu ni pendo, anipenda"
         ],
 
         "stanza_2": [
@@ -1159,7 +1178,7 @@
     },
     {
         "song_number": 28,
-        "title": "",
+        "title": "Anipenda Kweli",
         "subtitle": "",
 
         "stanza_1": [
@@ -1167,7 +1186,10 @@
         ],
 
         "chorus": [
-            
+            "Yesu anipenda,",
+            "Yesu anipenda,",
+            "Kweli anipenda,",
+            "Mungu amesema."
         ],
 
         "stanza_2": [
@@ -1196,7 +1218,7 @@
     },
     {
         "song_number": 29,
-        "title": "",
+        "title": "Baba yetu aliye Mbinguni",
         "subtitle": "",
 
         "stanza_1": [
@@ -1204,7 +1226,10 @@
         ],
 
         "chorus": [
-            
+            "Anipenda Mwokozi Yesu,",
+            "Anipenda, anipenda;",
+            "Anipenda Mwokozi  Yesu,",
+            "Anipenda mimi."
         ],
 
         "stanza_2": [
@@ -1233,7 +1258,7 @@
     },
     {
         "song_number": 30,
-        "title": "",
+        "title": "Nilikuwa kondoo Aliyepotea",
         "subtitle": "",
 
         "stanza_1": [
@@ -1270,7 +1295,7 @@
     },
     {
         "song_number": 31,
-        "title": "",
+        "title": "Msingi iMara",
         "subtitle": "",
 
         "stanza_1": [
@@ -1307,7 +1332,7 @@
     },
     {
         "song_number": 32,
-        "title": "",
+        "title": "Yesu Awakubali Wakosa",
         "subtitle": "",
 
         "stanza_1": [
@@ -1344,7 +1369,7 @@
     },
     {
         "song_number": 33,
-        "title": "",
+        "title": "Dhambi ikikulemea",
         "subtitle": "",
 
         "stanza_1": [
@@ -1381,7 +1406,7 @@
     },
     {
         "song_number": 34,
-        "title": "",
+        "title": "Njoni Wenye Dhambi",
         "subtitle": "",
 
         "stanza_1": [
@@ -1418,7 +1443,7 @@
     },
     {
         "song_number": 35,
-        "title": "",
+        "title": "Twende Kwake",
         "subtitle": "",
 
         "stanza_1": [
@@ -1455,7 +1480,7 @@
     },
     {
         "song_number": 36,
-        "title": "",
+        "title": "Anisikiaye aliye yote",
         "subtitle": "",
 
         "stanza_1": [
@@ -1492,7 +1517,7 @@
     },
     {
         "song_number": 37,
-        "title": "",
+        "title": "Waitwa, mwovu, na Bwana",
         "subtitle": "",
 
         "stanza_1": [
@@ -1529,7 +1554,7 @@
     },
     {
         "song_number": 38,
-        "title": "",
+        "title": "Twende Kwa Yesu",
         "subtitle": "",
 
         "stanza_1": [
@@ -1566,7 +1591,7 @@
     },
     {
         "song_number": 39,
-        "title": "",
+        "title": "Mwenye dhambi huna raha",
         "subtitle": "",
 
         "stanza_1": [
@@ -1603,7 +1628,7 @@
     },
     {
         "song_number": 40,
-        "title": "",
+        "title": "Nasikia Kuitwa",
         "subtitle": "",
 
         "stanza_1": [
@@ -1640,7 +1665,7 @@
     },
     {
         "song_number": 41,
-        "title": "",
+        "title": "Yesu aliniita Njoo",
         "subtitle": "",
 
         "stanza_1": [
@@ -1677,7 +1702,7 @@
     },
     {
         "song_number": 42,
-        "title": "",
+        "title": "Kivulini mwa Yesu",
         "subtitle": "",
 
         "stanza_1": [
@@ -1714,7 +1739,7 @@
     },
     {
         "song_number": 43,
-        "title": "",
+        "title": "Yesu Akwita",
         "subtitle": "",
 
         "stanza_1": [
@@ -1751,7 +1776,7 @@
     },
     {
         "song_number": 44,
-        "title": "",
+        "title": "Kukawa na giza Dunia yote",
         "subtitle": "",
 
         "stanza_1": [
@@ -1788,7 +1813,7 @@
     },
     {
         "song_number": 45,
-        "title": "",
+        "title": "Mtazame Huyo! Aliyeangikwa juu",
         "subtitle": "",
 
         "stanza_1": [
@@ -1825,7 +1850,7 @@
     },
     {
         "song_number": 46,
-        "title": "",
+        "title": "Twae wangu uzima",
         "subtitle": "",
 
         "stanza_1": [
@@ -1862,7 +1887,7 @@
     },
     {
         "song_number": 47,
-        "title": "",
+        "title": "Ni wako wewe",
         "subtitle": "",
 
         "stanza_1": [
@@ -1899,7 +1924,7 @@
     },
     {
         "song_number": 48,
-        "title": "",
+        "title": "Naweka dhambi zangu",
         "subtitle": "",
 
         "stanza_1": [
@@ -1936,7 +1961,7 @@
     },
     {
         "song_number": 49,
-        "title": "",
+        "title": "Nitwae hivi nilivyo",
         "subtitle": "",
 
         "stanza_1": [
@@ -1973,7 +1998,7 @@
     },
     {
         "song_number": 50,
-        "title": "",
+        "title": "Yesu nakupenda, U mali yangu",
         "subtitle": "",
 
         "stanza_1": [
@@ -2010,44 +2035,23 @@
     },
     {
         "song_number": 51,
-        "title": "",
+        "title": "Mungu twatoa shukrani",
         "subtitle": "",
 
         "stanza_1": [
-            
+            "Mungu twatoa shukrani,",
+            "Kwa kutulinda usikuni,",
+            "Na kutuangalia mchana,",
+            "Kutuongoza kila mara."
         ],
 
         "chorus": [
-            
-        ],
-
-        "stanza_2": [
-            
-        ],
-
-        "stanza_3": [
-            
-        ],
-
-        "stanza_4": [
-            
-        ],
-
-        "stanza_5": [
-            
-        ],
-
-        "stanza_6": [
-            
-        ],
-
-        "stanza_7": [
             
         ]
     },
     {
         "song_number": 52,
-        "title": "",
+        "title": "Yote namtolea Yesu",
         "subtitle": "",
 
         "stanza_1": [
@@ -2084,7 +2088,7 @@
     },
     {
         "song_number": 53,
-        "title": "",
+        "title": "Wewe umechoka sana",
         "subtitle": "",
 
         "stanza_1": [
@@ -2121,7 +2125,7 @@
     },
     {
         "song_number": 54,
-        "title": "",
+        "title": "Yesu nataka Kutakaswa",
         "subtitle": "",
 
         "stanza_1": [
@@ -2158,7 +2162,7 @@
     },
     {
         "song_number": 55,
-        "title": "",
+        "title": "Nipe Moyo Wenye Sifa",
         "subtitle": "",
 
         "stanza_1": [
@@ -2195,7 +2199,7 @@
     },
     {
         "song_number": 56,
-        "title": "",
+        "title": "Ni siku kuu siku ile",
         "subtitle": "",
 
         "stanza_1": [
@@ -2232,7 +2236,7 @@
     },
     {
         "song_number": 57,
-        "title": "",
+        "title": "Naendea Msalaba",
         "subtitle": "",
 
         "stanza_1": [
@@ -2269,7 +2273,7 @@
     },
     {
         "song_number": 58,
-        "title": "",
+        "title": "Mwamba Mwenye iMara",
         "subtitle": "",
 
         "stanza_1": [
@@ -2306,7 +2310,7 @@
     },
     {
         "song_number": 59,
-        "title": "",
+        "title": "Peleleza Ndani Yangu",
         "subtitle": "",
 
         "stanza_1": [
@@ -2343,7 +2347,7 @@
     },
     {
         "song_number": 60,
-        "title": "",
+        "title": "Waponyeni watu",
         "subtitle": "",
 
         "stanza_1": [
@@ -2380,7 +2384,7 @@
     },
     {
         "song_number": 61,
-        "title": "",
+        "title": "Tumesikia Mbiu",
         "subtitle": "",
 
         "stanza_1": [
@@ -2417,7 +2421,7 @@
     },
     {
         "song_number": 62,
-        "title": "",
+        "title": "Bwana wa Mabwana",
         "subtitle": "",
 
         "stanza_1": [
@@ -2454,7 +2458,7 @@
     },
     {
         "song_number": 63,
-        "title": "",
+        "title": "Ndugu wa kirohoni",
         "subtitle": "",
 
         "stanza_1": [
@@ -2491,7 +2495,7 @@
     },
     {
         "song_number": 64,
-        "title": "",
+        "title": "Ujaribiwapo, sifanye dhambi",
         "subtitle": "",
 
         "stanza_1": [
@@ -2528,7 +2532,7 @@
     },
     {
         "song_number": 65,
-        "title": "",
+        "title": "Safari",
         "subtitle": "",
 
         "stanza_1": [
@@ -2565,7 +2569,7 @@
     },
     {
         "song_number": 66,
-        "title": "",
+        "title": "Po pote mashamba yajaa",
         "subtitle": "",
 
         "stanza_1": [
@@ -2602,7 +2606,7 @@
     },
     {
         "song_number": 67,
-        "title": "",
+        "title": "Bwana uliyewaita",
         "subtitle": "",
 
         "stanza_1": [
@@ -2639,7 +2643,7 @@
     },
     {
         "song_number": 68,
-        "title": "",
+        "title": "Mungu msaada wetu",
         "subtitle": "",
 
         "stanza_1": [
@@ -2676,7 +2680,7 @@
     },
     {
         "song_number": 69,
-        "title": "",
+        "title": "Twendeni Askari",
         "subtitle": "",
 
         "stanza_1": [
@@ -2713,7 +2717,7 @@
     },
     {
         "song_number": 70,
-        "title": "",
+        "title": "Yesu atuchunga",
         "subtitle": "",
 
         "stanza_1": [
@@ -2750,7 +2754,7 @@
     },
     {
         "song_number": 71,
-        "title": "",
+        "title": "Mteteeni yesu",
         "subtitle": "",
 
         "stanza_1": [
@@ -2787,7 +2791,7 @@
     },
     {
         "song_number": 72,
-        "title": "",
+        "title": "Twendeni! Haraka!",
         "subtitle": "",
 
         "stanza_1": [
@@ -2824,7 +2828,7 @@
     },
     {
         "song_number": 73,
-        "title": "",
+        "title": "Yesu zama Bethilehemu",
         "subtitle": "",
 
         "stanza_1": [
@@ -2861,7 +2865,7 @@
     },
     {
         "song_number": 74,
-        "title": "",
+        "title": "Wachunga walipolinda",
         "subtitle": "",
 
         "stanza_1": [
@@ -2898,7 +2902,7 @@
     },
     {
         "song_number": 75,
-        "title": "",
+        "title": "Waimba, sikizeni",
         "subtitle": "",
 
         "stanza_1": [
@@ -2935,7 +2939,7 @@
     },
     {
         "song_number": 76,
-        "title": "",
+        "title": "Njoni enyi wa imani",
         "subtitle": "",
 
         "stanza_1": [
@@ -2972,7 +2976,7 @@
     },
     {
         "song_number": 77,
-        "title": "",
+        "title": "Msalabani Pa Mwokozi",
         "subtitle": "",
 
         "stanza_1": [
@@ -3009,7 +3013,7 @@
     },
     {
         "song_number": 78,
-        "title": "",
+        "title": "Sioshwi dhambi zangu",
         "subtitle": "",
 
         "stanza_1": [
@@ -3046,7 +3050,7 @@
     },
     {
         "song_number": 79,
-        "title": "",
+        "title": "Msalaba wa aibu",
         "subtitle": "",
 
         "stanza_1": [
@@ -3083,7 +3087,7 @@
     },
     {
         "song_number": 80,
-        "title": "",
+        "title": "Wamwendea Yesu kwa kusafiwa",
         "subtitle": "",
 
         "stanza_1": [
@@ -3120,7 +3124,7 @@
     },
     {
         "song_number": 81,
-        "title": "",
+        "title": "Chini ya msalaba",
         "subtitle": "",
 
         "stanza_1": [
@@ -3157,7 +3161,7 @@
     },
     {
         "song_number": 82,
-        "title": "",
+        "title": "Sioni Haya Kwa Bwana",
         "subtitle": "",
 
         "stanza_1": [
@@ -3194,7 +3198,7 @@
     },
     {
         "song_number": 83,
-        "title": "",
+        "title": "Kwa wingi wa nyama",
         "subtitle": "",
 
         "stanza_1": [
@@ -3231,7 +3235,7 @@
     },
     {
         "song_number": 84,
-        "title": "",
+        "title": "Niwonapo mti bora",
         "subtitle": "",
 
         "stanza_1": [
@@ -3268,7 +3272,7 @@
     },
     {
         "song_number": 85,
-        "title": "",
+        "title": "Ni Mtu wa Simanzi",
         "subtitle": "",
 
         "stanza_1": [
@@ -3305,7 +3309,7 @@
     },
     {
         "song_number": 86,
-        "title": "",
+        "title": "Damu imebubujika",
         "subtitle": "",
 
         "stanza_1": [
@@ -3342,7 +3346,7 @@
     },
     {
         "song_number": 87,
-        "title": "",
+        "title": "Deni Ya Dhambi ilimalizika",
         "subtitle": "",
 
         "stanza_1": [
@@ -3379,7 +3383,7 @@
     },
     {
         "song_number": 88,
-        "title": "",
+        "title": "Ndiyo Damu ya Baraka",
         "subtitle": "",
 
         "stanza_1": [
@@ -3416,7 +3420,7 @@
     },
     {
         "song_number": 89,
-        "title": "",
+        "title": "Kwa Kalvari",
         "subtitle": "",
 
         "stanza_1": [
@@ -3453,7 +3457,7 @@
     },
     {
         "song_number": 90,
-        "title": "",
+        "title": "Aliteswa Aliteswa",
         "subtitle": "",
 
         "stanza_1": [
@@ -3490,7 +3494,7 @@
     },
     {
         "song_number": 91,
-        "title": "",
+        "title": "Mapenzi yako yafanyike",
         "subtitle": "",
 
         "stanza_1": [
@@ -3527,7 +3531,7 @@
     },
     {
         "song_number": 92,
-        "title": "",
+        "title": "Nataka Nimjue Yesu",
         "subtitle": "",
 
         "stanza_1": [
@@ -3564,7 +3568,7 @@
     },
     {
         "song_number": 93,
-        "title": "",
+        "title": "Bwana Amefufuka",
         "subtitle": "",
 
         "stanza_1": [
@@ -3601,7 +3605,7 @@
     },
     {
         "song_number": 94,
-        "title": "",
+        "title": "Siku ya Mbinguni kujawa na sifa",
         "subtitle": "",
 
         "stanza_1": [
@@ -3638,7 +3642,7 @@
     },
     {
         "song_number": 95,
-        "title": "",
+        "title": "Hivi vita vimekoma",
         "subtitle": "",
 
         "stanza_1": [
@@ -3675,7 +3679,7 @@
     },
     {
         "song_number": 96,
-        "title": "",
+        "title": "Mle kaburini Yesu Mwokozi!",
         "subtitle": "",
 
         "stanza_1": [
@@ -3712,7 +3716,7 @@
     },
     {
         "song_number": 97,
-        "title": "",
+        "title": "Tazameni huyo ndiye",
         "subtitle": "",
 
         "stanza_1": [
@@ -3749,7 +3753,7 @@
     },
     {
         "song_number": 98,
-        "title": "",
+        "title": "Huyo ndiye! anashuka",
         "subtitle": "",
 
         "stanza_1": [
@@ -3786,7 +3790,7 @@
     },
     {
         "song_number": 99,
-        "title": "",
+        "title": "Maelfu na maelfu",
         "subtitle": "",
 
         "stanza_1": [
@@ -3823,7 +3827,7 @@
     },
     {
         "song_number": 100,
-        "title": "",
+        "title": "Tumrudie Bwana",
         "subtitle": "",
 
         "stanza_1": [
@@ -3860,7 +3864,7 @@
     },
     {
         "song_number": 101,
-        "title": "",
+        "title": "Twonane milele",
         "subtitle": "",
 
         "stanza_1": [
@@ -3897,7 +3901,7 @@
     },
     {
         "song_number": 102,
-        "title": "",
+        "title": "Kazi yangu ikiisha",
         "subtitle": "",
 
         "stanza_1": [
@@ -3934,7 +3938,7 @@
     },
     {
         "song_number": 103,
-        "title": "",
+        "title": "Kaa Nami",
         "subtitle": "",
 
         "stanza_1": [
@@ -3971,7 +3975,7 @@
     },
     {
         "song_number": 104,
-        "title": "",
+        "title": "Twasoma, ni njema sana",
         "subtitle": "",
 
         "stanza_1": [
@@ -4008,7 +4012,7 @@
     },
     {
         "song_number": 105,
-        "title": "",
+        "title": "Kuwatafuta",
         "subtitle": "",
 
         "stanza_1": [
@@ -4045,7 +4049,7 @@
     },
     {
         "song_number": 106,
-        "title": "",
+        "title": "Mungu awe nanyi daima",
         "subtitle": "",
 
         "stanza_1": [
@@ -4082,7 +4086,7 @@
     },
     {
         "song_number": 107,
-        "title": "",
+        "title": "Ewe, Baba wa Mbinguni",
         "subtitle": "",
 
         "stanza_1": [
@@ -4119,7 +4123,7 @@
     },
     {
         "song_number": 108,
-        "title": "",
+        "title": "Twenenda Sayuni",
         "subtitle": "",
 
         "stanza_1": [
@@ -4156,7 +4160,7 @@
     },
     {
         "song_number": 109,
-        "title": "",
+        "title": "Nitaimba ya Yesu",
         "subtitle": "",
 
         "stanza_1": [
@@ -4193,7 +4197,7 @@
     },
     {
         "song_number": 110,
-        "title": "",
+        "title": "Mapya ni mapenzi hayo",
         "subtitle": "",
 
         "stanza_1": [
@@ -4230,7 +4234,7 @@
     },
     {
         "song_number": 111,
-        "title": "",
+        "title": "Neno Lako Bwana",
         "subtitle": "",
 
         "stanza_1": [
@@ -4267,7 +4271,7 @@
     },
     {
         "song_number": 112,
-        "title": "",
+        "title": "Nilikupa Wewe Maisha Yangu",
         "subtitle": "",
 
         "stanza_1": [
@@ -4304,7 +4308,7 @@
     },
     {
         "song_number": 113,
-        "title": "",
+        "title": "Ni Mfalme wa mapenzi",
         "subtitle": "",
 
         "stanza_1": [
@@ -4341,7 +4345,7 @@
     },
     {
         "song_number": 114,
-        "title": "",
+        "title": "Bwana Mungu, nashangaa kabisa",
         "subtitle": "",
 
         "stanza_1": [
@@ -4378,7 +4382,7 @@
     },
     {
         "song_number": 115,
-        "title": "",
+        "title": "Kilima kando ya mji",
         "subtitle": "",
 
         "stanza_1": [
@@ -4415,7 +4419,7 @@
     },
     {
         "song_number": 116,
-        "title": "",
+        "title": "Bwana u sehemu yangu",
         "subtitle": "",
 
         "stanza_1": [
@@ -4452,7 +4456,7 @@
     },
     {
         "song_number": 117,
-        "title": "",
+        "title": "Tufani inapovuma",
         "subtitle": "",
 
         "stanza_1": [
@@ -4489,7 +4493,7 @@
     },
     {
         "song_number": 118,
-        "title": "",
+        "title": "Ni Ujumbe Wa Bwana",
         "subtitle": "",
 
         "stanza_1": [
@@ -4526,7 +4530,7 @@
     },
     {
         "song_number": 119,
-        "title": "",
+        "title": "Si damu ya nyama",
         "subtitle": "",
 
         "stanza_1": [
@@ -4563,7 +4567,7 @@
     },
     {
         "song_number": 120,
-        "title": "",
+        "title": "Enyi wanadamu",
         "subtitle": "",
 
         "stanza_1": [
@@ -4600,7 +4604,7 @@
     },
     {
         "song_number": 121,
-        "title": "",
+        "title": "Liko lango moja wazi",
         "subtitle": "",
 
         "stanza_1": [
@@ -4637,7 +4641,7 @@
     },
     {
         "song_number": 122,
-        "title": "",
+        "title": "Bwana Yesu",
         "subtitle": "",
 
         "stanza_1": [
@@ -4674,7 +4678,7 @@
     },
     {
         "song_number": 123,
-        "title": "",
+        "title": "Nimeketi mimi nili kipofu",
         "subtitle": "",
 
         "stanza_1": [
@@ -4711,7 +4715,7 @@
     },
     {
         "song_number": 124,
-        "title": "",
+        "title": "Mungu ulisema",
         "subtitle": "",
 
         "stanza_1": [
@@ -4748,7 +4752,7 @@
     },
     {
         "song_number": 125,
-        "title": "",
+        "title": "Ati twonane mtoni?",
         "subtitle": "",
 
         "stanza_1": [
@@ -4785,7 +4789,7 @@
     },
     {
         "song_number": 126,
-        "title": "",
+        "title": "Ni mji mzuri",
         "subtitle": "",
 
         "stanza_1": [
@@ -4822,7 +4826,7 @@
     },
     {
         "song_number": 127,
-        "title": "",
+        "title": "Bwana Yesu Atakuja",
         "subtitle": "",
 
         "stanza_1": [
@@ -4859,7 +4863,7 @@
     },
     {
         "song_number": 128,
-        "title": "",
+        "title": "Mmoja apita wote",
         "subtitle": "",
 
         "stanza_1": [
@@ -4896,7 +4900,7 @@
     },
     {
         "song_number": 129,
-        "title": "",
+        "title": "Karibu na wewe",
         "subtitle": "",
 
         "stanza_1": [
@@ -4933,7 +4937,7 @@
     },
     {
         "song_number": 130,
-        "title": "",
+        "title": "Niongoze, Bwana Mungu",
         "subtitle": "",
 
         "stanza_1": [
@@ -4970,7 +4974,7 @@
     },
     {
         "song_number": 131,
-        "title": "",
+        "title": "Piga sana vita vyema",
         "subtitle": "",
 
         "stanza_1": [
@@ -5007,7 +5011,7 @@
     },
     {
         "song_number": 132,
-        "title": "",
+        "title": "Sauti sikilizeni",
         "subtitle": "",
 
         "stanza_1": [
@@ -5044,7 +5048,7 @@
     },
     {
         "song_number": 133,
-        "title": "",
+        "title": "Ni wako Mungu",
         "subtitle": "",
 
         "stanza_1": [
@@ -5081,7 +5085,7 @@
     },
     {
         "song_number": 134,
-        "title": "",
+        "title": "Juu yake langu shaka",
         "subtitle": "",
 
         "stanza_1": [
@@ -5118,7 +5122,7 @@
     },
     {
         "song_number": 135,
-        "title": "",
+        "title": "Mapenzi ya milele",
         "subtitle": "",
 
         "stanza_1": [
@@ -5155,7 +5159,7 @@
     },
     {
         "song_number": 136,
-        "title": "",
+        "title": "Msifuni, Yesu ndiye mkombozi",
         "subtitle": "",
 
         "stanza_1": [
@@ -5192,7 +5196,7 @@
     },
     {
         "song_number": 137,
-        "title": "",
+        "title": "Yesu mponya",
         "subtitle": "",
 
         "stanza_1": [
@@ -5229,7 +5233,7 @@
     },
     {
         "song_number": 138,
-        "title": "",
+        "title": "Tukutendereza Yesu (Luganda)",
         "subtitle": "",
 
         "stanza_1": [
@@ -5266,7 +5270,7 @@
     },
     {
         "song_number": 139,
-        "title": "",
+        "title": "Nuru ya Rohoni",
         "subtitle": "",
 
         "stanza_1": [
@@ -5303,7 +5307,7 @@
     },
     {
         "song_number": 140,
-        "title": "",
+        "title": "Mahali ni Pazuri",
         "subtitle": "",
 
         "stanza_1": [
@@ -5340,7 +5344,7 @@
     },
     {
         "song_number": 141,
-        "title": "",
+        "title": "Pana Jito, Lina Maji Mazuri",
         "subtitle": "",
 
         "stanza_1": [
@@ -5377,7 +5381,7 @@
     },
     {
         "song_number": 142,
-        "title": "",
+        "title": "Babangu Kule Mbiguni.",
         "subtitle": "",
 
         "stanza_1": [
@@ -5414,7 +5418,7 @@
     },
     {
         "song_number": 143,
-        "title": "",
+        "title": "Nchi Nzuri Yametameta",
         "subtitle": "",
 
         "stanza_1": [
@@ -5451,7 +5455,7 @@
     },
     {
         "song_number": 144,
-        "title": "",
+        "title": "Mbele Ninaendelea",
         "subtitle": "",
 
         "stanza_1": [
@@ -5488,7 +5492,7 @@
     },
     {
         "song_number": 145,
-        "title": "",
+        "title": "Ndoa Yetu Nzima",
         "subtitle": "",
 
         "stanza_1": [
@@ -5525,7 +5529,7 @@
     },
     {
         "song_number": 146,
-        "title": "",
+        "title": "Neno la Mungu Takata",
         "subtitle": "",
 
         "stanza_1": [
@@ -5562,7 +5566,7 @@
     },
     {
         "song_number": 147,
-        "title": "",
+        "title": "Tegemea Mpaka Kufa",
         "subtitle": "",
 
         "stanza_1": [
@@ -5599,7 +5603,7 @@
     },
     {
         "song_number": 148,
-        "title": "",
+        "title": "Ondokeni Tunaitwa",
         "subtitle": "",
 
         "stanza_1": [
@@ -5636,7 +5640,7 @@
     },
     {
         "song_number": 149,
-        "title": "",
+        "title": "Haya Umati wa Yesu",
         "subtitle": "",
 
         "stanza_1": [
@@ -5673,7 +5677,7 @@
     },
     {
         "song_number": 150,
-        "title": "",
+        "title": "Haya ee Moyo wangu",
         "subtitle": "",
 
         "stanza_1": [
@@ -5710,7 +5714,7 @@
     },
     {
         "song_number": 151,
-        "title": "",
+        "title": "Usiku Mtakatifu",
         "subtitle": "",
 
         "stanza_1": [
@@ -5747,7 +5751,7 @@
     },
     {
         "song_number": 152,
-        "title": "",
+        "title": "Uliyesulibishwa",
         "subtitle": "",
 
         "stanza_1": [
@@ -5784,7 +5788,7 @@
     },
     {
         "song_number": 153,
-        "title": "",
+        "title": "Nimepita  Ulimwengu",
         "subtitle": "",
 
         "stanza_1": [
@@ -5821,7 +5825,7 @@
     },
     {
         "song_number": 154,
-        "title": "",
+        "title": "Bariki Yote Yawe Mema",
         "subtitle": "",
 
         "stanza_1": [
@@ -5858,7 +5862,7 @@
     },
     {
         "song_number": 155,
-        "title": "",
+        "title": "Hapana Rafiki Kama Yesu",
         "subtitle": "",
 
         "stanza_1": [
@@ -5895,7 +5899,7 @@
     },
     {
         "song_number": 156,
-        "title": "",
+        "title": "Bwana Yesu Yuko Wapi",
         "subtitle": "",
 
         "stanza_1": [
@@ -5932,7 +5936,7 @@
     },
     {
         "song_number": 157,
-        "title": "",
+        "title": "Kijito cha Utakaso",
         "subtitle": "",
 
         "stanza_1": [
@@ -5969,7 +5973,7 @@
     },
     {
         "song_number": 158,
-        "title": "",
+        "title": "Aniongoza Po pote",
         "subtitle": "",
 
         "stanza_1": [
@@ -6006,7 +6010,7 @@
     },
     {
         "song_number": 159,
-        "title": "",
+        "title": "Ushirika mkuu, Furaha yangu",
         "subtitle": "",
 
         "stanza_1": [
@@ -6043,48 +6047,60 @@
     },
     {
         "song_number": 160,
-        "title": "",
+        "title": "Jioni Moyo Wangu Wakutafuta",
         "subtitle": "",
-
-        "stanza_1": [
-            
-        ],
 
         "chorus": [
             
         ],
 
-        "stanza_2": [
-            
+        "stanza_1": [ 
+        "Jioni moyo wangu",
+        "wakutafuta Bwana,",
+        "na kukushukuru.",
+        "Unikazie macho",
+        "yenye baraka nyingi,",
+        "ung'aze mwili na roho."
         ],
 
-        "stanza_3": [
-            
+        "stanza_2": [ 
+        "Natumaini tena",
+        "rehema yako Baba",
+        "hata usiku huu.",
+        "Fukuza majaribu",
+        "na hila ya shetani,",
+        "ukiwa karibu yangu"
+        ],
+
+        "stanza_3": [ 
+        "Unanipenda sana,",
+        "wakaa pamoja nami,",
+        "wanikaribisha.",
+        "Unanifurahisha",
+        "kwa wema wako",
+        "mwingi,",
+        "sababu hii nakusifu."
         ],
 
         "stanza_4": [
-            
-        ],
-
-        "stanza_5": [
-            
-        ],
-
-        "stanza_6": [
-            
-        ],
-
-        "stanza_7": [
-            
+        "Maisha yanapita upesi,",
+        "ni safari ya kwenda",
+        "mbinguni.",
+        "Unifundishe, Bwana,",
+        "kuelekea kwako:",
+        "Pazuri ni mbinguni tu."
         ]
     },
     {
         "song_number": 161,
-        "title": "",
+        "title": "Usiku Uingiapo",
         "subtitle": "",
 
         "stanza_1": [
-            
+            "Usiku uingiapo,",
+            "umwaze Mungu Mkuu,",
+            "aendeshaye dunia",
+            "kwa mwendo mtulivu."
         ],
 
         "chorus": [
@@ -6092,27 +6108,24 @@
         ],
 
         "stanza_2": [
-            
+            "Kwa nini wahangaika",
+            "usiku namchana?",
+            "Umtwishe huzuni yako",
+            "aliyekuumba."
         ],
 
         "stanza_3": [
-            
+            "Kwake haujapunguka",
+            "uwezo na msaada.",
+            "Atayatimiza yote",
+            "aliyoyaanza."
         ],
 
         "stanza_4": [
-            
-        ],
-
-        "stanza_5": [
-            
-        ],
-
-        "stanza_6": [
-            
-        ],
-
-        "stanza_7": [
-            
+            "Ukamwachie kutenda",
+            "atakalo kwako!",
+            "Kwa hiyo ulale raha",
+            "na kufurahiwa."
         ]
     }
 ]
