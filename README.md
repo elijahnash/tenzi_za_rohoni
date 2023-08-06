@@ -33,7 +33,7 @@ Programu hii imejengwa kwa kutumia teknolojia ya Flutter, ambayo inaruhusu kuten
 
 Kwa maswali au msaada wowote, tafadhali wasiliana nasi kwa kutumia anwani zifuatazo:
 
-- Barua pepe: <>
+- Barua pepe: <elijahnganga199@gmail.com>
 - Tovuti: <>
 
 Asante kwa kutumia programu yetu! Tuna matumaini utapata faida na furaha katika kuimba na kusoma tenzi za rohoni kwa kutumia programu hii. Mungu awabariki!
