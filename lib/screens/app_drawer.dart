@@ -89,7 +89,7 @@ class AppDrawer extends StatelessWidget {
               Navigator.pop(context); // Close the drawer
               // Navigate to the home screen or any other desired screen
               Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => const AboutTenzi()));
+                  MaterialPageRoute(builder: (context) => AboutTenzi()));
             },
           ),
           // Add more ListTiles for other options in the drawer
