@@ -1,6 +1,8 @@
 import 'dart:convert';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:rate_my_app/rate_my_app.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:tenzi_za_rohoni/screens/app_drawer.dart';
 import 'package:tenzi_za_rohoni/screens/details_page.dart';
@@ -33,6 +35,16 @@ class ClickableListScreen extends StatefulWidget {
 }
 
 class _ClickableListScreenState extends State<ClickableListScreen> {
+  final RateMyApp _rateMyApp = RateMyApp(
+    preferencesPrefix: '_rateMyApp',
+    minDays: 3,
+    minLaunches: 5,
+    remindDays: 2,
+    remindLaunches: 5,
+    appStoreIdentifier: '',
+    googlePlayIdentifier: '',
+  );
+
   List<Map<String, dynamic>>? itemList; // Make itemList nullable
   List<int> favoritesList = [];
   List<Map<String, dynamic>> _searchResults = [];
@@ -41,6 +53,40 @@ class _ClickableListScreenState extends State<ClickableListScreen> {
   @override
   void initState() {
     super.initState();
+    _rateMyApp.init().then((_) {
+      if (_rateMyApp.shouldOpenDialog) {
+        _rateMyApp.showStarRateDialog(
+          context,
+          title: "Je, unafurahia Programu?",
+          message: "Tafadhali tathmini App hii.",
+          dialogStyle: const DialogStyle(
+            titleAlign: TextAlign.center,
+            messageAlign: TextAlign.center,
+            messagePadding: EdgeInsets.only(bottom: 20.0),
+          ),
+          actionsBuilder: (context, stars) {
+            return [
+              TextButton(
+                child: const Text('Sawa'),
+                onPressed: () async {
+                  if (kDebugMode) {
+                    print(
+                        'Thanks for the ${stars == null ? '0' : stars.round().toString()} star(s) !');
+                  }
+                  // You can handle the result as you want (for instance if the user puts 1 star then open your contact page, if he puts more then open the store page, etc...).
+                  // This allows to mimic the behavior of the default "Rate" button. See "Advanced > Broadcasting events" for more information :
+                  await _rateMyApp
+                      .callEvent(RateMyAppEventType.rateButtonPressed);
+                  // ignore: use_build_context_synchronously
+                  Navigator.pop<RateMyAppDialogButton>(
+                      context, RateMyAppDialogButton.rate);
+                },
+              ),
+            ];
+          },
+        );
+      }
+    });
     loadJsonData(); // Call the method to load JSON data
     loadFavourites();
   }

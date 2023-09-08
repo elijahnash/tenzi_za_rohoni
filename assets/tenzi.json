@@ -790,7 +790,7 @@
     {
         "song_number": 18,
         "title": "Akifa Yesu Nikafa Naye",
-        "subtitle": "",
+        "subtitle": "Dying with jesus,by death reckoning",
 
         "stanza_1": [
             "Akifa Yesu nikafa naye",
@@ -839,7 +839,7 @@
     {
         "song_number": 19,
         "title": "Ndiyo Dhamana Yesu Wangu",
-        "subtitle": "",
+        "subtitle": "Blessed assurance,jesus is mine",
 
         "stanza_1": [
             "Ndiyo dhamana, Yesu wangu;",
@@ -879,7 +879,7 @@
     {
         "song_number": 20,
         "title": "Ninaye Rafiki Naye",
-        "subtitle": "",
+        "subtitle": "I've a Friend, Oh such a Friend",
 
         "stanza_1": [
             "Ninaye Rafiki naye",
@@ -932,7 +932,7 @@
     {
         "song_number": 21,
         "title": "Roho Yangu Hima",
-        "subtitle": "",
+        "subtitle": "Be quick, my soul, and light thy lamp",
 
         "stanza_1": [
             "Roho yangu hima, na taa yako",
@@ -1043,7 +1043,7 @@
     {
         "song_number": 23,
         "title": "Ni Salama Rohoni Mwangu",
-        "subtitle": "",
+        "subtitle": "When Peace like a river",
 
         "stanza_1": [
             "Nionapo amani kama shwari,",
@@ -1081,7 +1081,7 @@
     {
         "song_number": 24,
         "title": "Mwokozi Moyoni Mwangu",
-        "subtitle": "",
+        "subtitle": "Since Jesus came into my Heart",
 
         "stanza_1": [
             "Tangu siku hiyo aliponijia,",
@@ -1129,7 +1129,7 @@
     {
         "song_number": 25,
         "title": "Nimekombolewa na Yesu",
-        "subtitle": "",
+        "subtitle": "Redeemed! How I love to Proclaim Jesus",
 
         "stanza_1": [
             "Nimekombolewa na Yesu",
@@ -1169,7 +1169,7 @@
     {
         "song_number": 26,
         "title": "Yesu Unipendaye",
-        "subtitle": "",
+        "subtitle": "Jesus, lover of my Soul",
 
         "stanza_1": [
             "Yesu unipendaye",
@@ -1222,7 +1222,7 @@
     {
         "song_number": 27,
         "title": "Mungu ni Pendo",
-        "subtitle": "",
+        "subtitle": "God is Love",
 
         "stanza_1": [
             "Mungu ni pendo, apenda watu;",
@@ -1252,7 +1252,7 @@
     {
         "song_number": 28,
         "title": "Anipenda Kweli",
-        "subtitle": "",
+        "subtitle": "Jesus loves me, this I know",
 
         "stanza_1": [
             "Anipenda ni kweli;",
@@ -1292,7 +1292,7 @@
     {
         "song_number": 29,
         "title": "Baba yetu aliye Mbinguni",
-        "subtitle": "",
+        "subtitle": "I am so glad that our Father in Heaven",
 
         "stanza_1": [
             "Baba yetu aliye Mbinguni",
@@ -1339,7 +1339,7 @@
     {
         "song_number": 30,
         "title": "Nilikuwa kondoo Aliyepotea",
-        "subtitle": "",
+        "subtitle": "I was a wondering sheep",
 
         "stanza_1": [
             "Nilikuwa kondoo aliyepotea,",
@@ -1376,7 +1376,7 @@
     {
         "song_number": 31,
         "title": "Msingi iMara",
-        "subtitle": "",
+        "subtitle": "How farm a Foundaiton, Ye saints of the Lord",
 
         "stanza_1": [
             "Msingi imara, enyi wa kweli,",
@@ -1420,7 +1420,7 @@
     {
         "song_number": 32,
         "title": "Yesu Awakubali Wakosa",
-        "subtitle": "",
+        "subtitle": "Sinners, Jesus will receive",
 
         "stanza_1": [
             "Yesu awakubali,",
@@ -1459,7 +1459,7 @@
     {
         "song_number": 33,
         "title": "Dhambi ikikulemea",
-        "subtitle": "",
+        "subtitle": "Come, every soul by sin oppressed",
 
         "stanza_1": [
             "Dhambi ikikulemea,",
@@ -1499,7 +1499,7 @@
     {
         "song_number": 34,
         "title": "Njoni Wenye Dhambi",
-        "subtitle": "",
+        "subtitle": "Come, Ye sinners poor and wretched",
 
         "stanza_1": [
             "Njoni! Njoni! Wenye dhambi,",
@@ -1560,8 +1560,8 @@
     {
         "song_number": 35,
         "title": "Twende Kwake",
-        "subtitle": "",
-
+        "subtitle": "Come to Jesus just now",
+        
         "stanza_1": [
             "Twende kwake, twende kwake, kwake Yesu sasa,",
             "Sasa twende kwake, kwake Yesu sasa!"
@@ -1599,7 +1599,7 @@
     {
         "song_number": 36,
         "title": "Anisikiaye aliye yote",
-        "subtitle": "",
+        "subtitle": "Whosoever will",
 
         "stanza_1": [
             "Anisikiaye, aliye yote;",
@@ -1632,7 +1632,7 @@
     {
         "song_number": 37,
         "title": "Waitwa, mwovu, na Bwana",
-        "subtitle": "",
+        "subtitle": "Beulah land",
 
         "stanza_1": [
             "Waitwa, mwovu, na Bwana",
@@ -1674,7 +1674,7 @@
     {
         "song_number": 38,
         "title": "Twende Kwa Yesu",
-        "subtitle": "",
+        "subtitle": "Come to the saviour make no delay",
 
         "stanza_1": [
             "Twende kwa Yesu mimi nawe,",
@@ -1707,7 +1707,7 @@
     {
         "song_number": 39,
         "title": "Mwenye dhambi huna raha",
-        "subtitle": "",
+        "subtitle": "Come, Ye sinners. Poor and wretched",
 
         "stanza_1": [
             "Mwenye dhambi huna raha,",
@@ -1752,7 +1752,7 @@
     {
         "song_number": 40,
         "title": "Nasikia Kuitwa",
-        "subtitle": "",
+        "subtitle": "I hear thy welcome voice",
 
         "stanza_1": [
             "Nasikia kwitwa",
@@ -1805,7 +1805,7 @@
     {
         "song_number": 41,
         "title": "Yesu aliniita Njoo",
-        "subtitle": "",
+        "subtitle": "I heard the voice of Jesus say",
 
         "stanza_1": [
             "Yesu aliniita, “njoo,",
@@ -1847,7 +1847,7 @@
     {
         "song_number": 42,
         "title": "Kivulini mwa Yesu",
-        "subtitle": "",
+        "subtitle": "In the shadow of his wings",
 
         "stanza_1": [
             "Kivulini mwa Yesu kuna Kituo:",
@@ -1876,7 +1876,7 @@
     {
         "song_number": 43,
         "title": "Yesu Akwita",
-        "subtitle": "",
+        "subtitle": "Jesus is tenderly calling today",
 
         "stanza_1": [
             "Yesu akwita, chanena Chuo:",
@@ -1916,7 +1916,7 @@
     {
         "song_number": 44,
         "title": "Kukawa na giza Dunia yote",
-        "subtitle": "",
+        "subtitle": "The whole world was lost in the darkness of sin",
 
         "stanza_1": [
             "Kukawa na giza dunia yote,",
@@ -1956,7 +1956,7 @@
     {
         "song_number": 45,
         "title": "Mtazame Huyo! Aliyeangikwa juu",
-        "subtitle": "",
+        "subtitle": "There is life for a look at the crucified one",
 
         "stanza_1": [
             "Mtazame Huyo! Aliyeangikwa juu",
@@ -2002,7 +2002,7 @@
     {
         "song_number": 46,
         "title": "Twae wangu uzima",
-        "subtitle": "",
+        "subtitle": "Take my life, and let it be",
 
         "stanza_1": [
             "Twae wangu uzima,",
@@ -2055,7 +2055,7 @@
     {
         "song_number": 47,
         "title": "Ni wako wewe",
-        "subtitle": "",
+        "subtitle": "I am thine. Oh Lord, I have heard Thy voice",
 
         "stanza_1": [
             "Ni wako wewe, nimekujua,",
@@ -2095,7 +2095,7 @@
     {
         "song_number": 48,
         "title": "Naweka dhambi zangu",
-        "subtitle": "",
+        "subtitle": "I lay my sins on Jesus",
 
         "stanza_1": [
             "Naweka dhambi zangu",
@@ -2148,7 +2148,7 @@
     {
         "song_number": 49,
         "title": "Nitwae hivi nilivyo",
-        "subtitle": "",
+        "subtitle": "Just as I am without one plea",
 
         "stanza_1": [
             "Nitwae hivi nilivyo,",
@@ -2199,7 +2199,7 @@
     {
         "song_number": 50,
         "title": "Yesu nakupenda, U mali yangu",
-        "subtitle": "",
+        "subtitle": "My Jesus, I Love Thee, I know Thou art mine",
 
         "stanza_1": [
             "Yesu nakupenda, U mali yangu,",
@@ -2243,7 +2243,7 @@
     {
         "song_number": 51,
         "title": "Mungu twatoa shukrani",
-        "subtitle": "",
+        "subtitle": "Father, we thank Thee",
 
         "stanza_1": [
             "Mungu twatoa shukrani,",
@@ -2259,7 +2259,7 @@
     {
         "song_number": 52,
         "title": "Yote namtolea Yesu",
-        "subtitle": "",
+        "subtitle": "All to Jesus I surrender",
 
         "stanza_1": [
             "Yote namtolea Yesu",
@@ -2299,7 +2299,7 @@
     {
         "song_number": 53,
         "title": "Wewe umechoka sana",
-        "subtitle": "",
+        "subtitle": "Art Thou weary, Art Thou languid?",
 
         "stanza_1": [
             "Wewe umechoka sana?",
@@ -2338,7 +2338,7 @@
     {
         "song_number": 54,
         "title": "Yesu nataka Kutakaswa",
-        "subtitle": "",
+        "subtitle": "Lord Jesus, I long to be perfectly whole",
 
         "stanza_1": [
             "Yesu nataka kutakaswa sana,",
@@ -2376,7 +2376,7 @@
     {
         "song_number": 55,
         "title": "Nipe Moyo Wenye Sifa",
-        "subtitle": "",
+        "subtitle": "Oh for a heart to praise my God",
 
         "stanza_1": [
             "Nipe moyo wenye sifa",
@@ -2441,7 +2441,7 @@
     {
         "song_number": 56,
         "title": "Ni siku kuu siku ile",
-        "subtitle": "",
+        "subtitle": "O happy day that fixed my choice",
 
         "stanza_1": [
             "Ni siku kuu siku ile",
@@ -2483,7 +2483,7 @@
     {
         "song_number": 57,
         "title": "Naendea Msalaba",
-        "subtitle": "",
+        "subtitle": "I am coming to the cross",
 
         "stanza_1": [
             "Naendea Msalaba,",
@@ -2530,7 +2530,7 @@
     {
         "song_number": 58,
         "title": "Mwamba Mwenye iMara",
-        "subtitle": "",
+        "subtitle": "Rock of ages cleft for me",
 
         "stanza_1": [
             "Mwamba wenye imara",
@@ -2575,7 +2575,7 @@
     {
         "song_number": 59,
         "title": "Peleleza Ndani Yangu",
-        "subtitle": "",
+        "subtitle": "Search me, O God, my actions try",
 
         "stanza_1": [
             "Peleleza ndani yangu,",
@@ -2627,7 +2627,7 @@
     {
         "song_number": 60,
         "title": "Waponyeni watu",
-        "subtitle": "",
+        "subtitle": "Rescue the perishing",
 
         "stanza_1": [
             "Waponyeni watu wamo kifoni,",
@@ -2665,7 +2665,7 @@
     {
         "song_number": 61,
         "title": "Tumesikia Mbiu",
-        "subtitle": "",
+        "subtitle": "We have heard",
 
         "stanza_1": [
             "Tumesikia mbiu:",
@@ -2718,7 +2718,7 @@
     {
         "song_number": 62,
         "title": "Bwana wa Mabwana",
-        "subtitle": "",
+        "subtitle": "The everlasting Gospel",
 
         "stanza_1": [
             "Bwana wa mabwana,",
@@ -2831,7 +2831,7 @@
     {
         "song_number": 64,
         "title": "Ujaribiwapo, sifanye dhambi",
-        "subtitle": "",
+        "subtitle": "Yiel not to temptation",
 
         "stanza_1": [
             "Ujaribiwapo, sifanye dhambi,",
@@ -2864,7 +2864,7 @@
     {
         "song_number": 65,
         "title": "Safari",
-        "subtitle": "",
+        "subtitle": "Hold the fort",
 
         "stanza_1": [
             "Katika safari yetu",
@@ -2912,7 +2912,7 @@
     {
         "song_number": 66,
         "title": "Po pote mashamba yajaa",
-        "subtitle": "",
+        "subtitle": "Far and near the fields",
 
         "stanza_1": [
             "Po pote mashamba yajaa,",
@@ -2945,7 +2945,7 @@
     {
         "song_number": 67,
         "title": "Bwana uliyewaita",
-        "subtitle": "",
+        "subtitle": "Thou who din't call Thy saints of old",
 
         "stanza_1": [
             "Bwana uliyewaita",
@@ -2997,7 +2997,7 @@
     {
         "song_number": 68,
         "title": "Mungu msaada wetu",
-        "subtitle": "",
+        "subtitle": "o God our help in ages past",
 
         "stanza_1": [
             "Mungu msaada wetu",
@@ -3048,7 +3048,7 @@
     {
         "song_number": 69,
         "title": "Twendeni Askari",
-        "subtitle": "",
+        "subtitle": "Onward christian souldiers",
 
         "stanza_1": [
             "Twendeni askari, watu wa Mungu;",
@@ -3086,7 +3086,7 @@
     {
         "song_number": 70,
         "title": "Yesu atuchunga",
-        "subtitle": "",
+        "subtitle": "Jesus is our shepherd",
 
         "stanza_1": [
             "Yesu atuchunga,",
@@ -3138,7 +3138,7 @@
     {
         "song_number": 71,
         "title": "Mteteeni yesu",
-        "subtitle": "",
+        "subtitle": "Stand up, Stand up for Jesus",
 
         "stanza_1": [
             "Mteteeni Yesu,",
@@ -3192,7 +3192,7 @@
     {
         "song_number": 72,
         "title": "Twendeni! Haraka!",
-        "subtitle": "",
+        "subtitle": "Speed away! Speed away!",
 
         "stanza_1": [
             "Twendeni! Haraka! Tupeleke Neno",
@@ -3228,7 +3228,7 @@
     {
         "song_number": 73,
         "title": "Yesu zama Bethilehemu",
-        "subtitle": "",
+        "subtitle": "Jesus my saviour to Bethlehem come",
 
         "stanza_1": [
             "Yesu zama Bethilehemu,",
@@ -3273,7 +3273,7 @@
     {
         "song_number": 74,
         "title": "Wachunga walipolinda",
-        "subtitle": "",
+        "subtitle": "While shepherds watched their flock",
 
         "stanza_1": [
             "Wachunga walipolinda",
@@ -3324,7 +3324,7 @@
     {
         "song_number": 75,
         "title": "Waimba, sikizeni",
-        "subtitle": "",
+        "subtitle": "Hark, Herald angels sing",
 
         "stanza_1": [
             "Waimba, sikizeni,",
@@ -3385,7 +3385,7 @@
     {
         "song_number": 76,
         "title": "Njoni enyi wa imani",
-        "subtitle": "",
+        "subtitle": "O come all ye faithful",
 
         "stanza_1": [
             "Njoni na furaha, enyi wa imani,",
@@ -3426,7 +3426,7 @@
     {
         "song_number": 77,
         "title": "Msalabani Pa Mwokozi",
-        "subtitle": "",
+        "subtitle": "Down at the cross",
 
         "stanza_1": [
             "Msalabani pa mwokozi,",
@@ -3471,7 +3471,7 @@
     {
         "song_number": 78,
         "title": "Sioshwi dhambi zangu",
-        "subtitle": "",
+        "subtitle": "What can wash away my sins",
 
         "stanza_1": [
             "Sioshwi dhambi zangu,",
@@ -3569,7 +3569,7 @@
     {
         "song_number": 80,
         "title": "Wamwendea Yesu kwa kusafiwa",
-        "subtitle": "",
+        "subtitle": "Have you ever been to Jesus for the clensing power",
 
         "stanza_1": [
             "Wamwendea Yesu kwa kusafiwa,",
@@ -3609,7 +3609,7 @@
     {
         "song_number": 81,
         "title": "Chini ya msalaba",
-        "subtitle": "",
+        "subtitle": "Beneath the cross of Jesus",
 
         "stanza_1": [
             "Chini ya msalaba",
@@ -3662,7 +3662,7 @@
     {
         "song_number": 82,
         "title": "Sioni Haya Kwa Bwana",
-        "subtitle": "",
+        "subtitle": "At the cross",
 
         "stanza_1": [
             "Sioni haya kwa Bwana",
@@ -3702,7 +3702,7 @@
     {
         "song_number": 83,
         "title": "Kwa wingi wa nyama",
-        "subtitle": "",
+        "subtitle": "Not all the blood of Beast",
 
         "stanza_1": [
             "Kwa wingi wa nyama,",
@@ -3746,7 +3746,7 @@
     {
         "song_number": 84,
         "title": "Niwonapo mti bora",
-        "subtitle": "",
+        "subtitle": "When I survey the wonderous cross",
 
         "stanza_1": [
             "Niwonapo mti bora",
@@ -3783,7 +3783,7 @@
     {
         "song_number": 85,
         "title": "Ni Mtu wa Simanzi",
-        "subtitle": "",
+        "subtitle": "\"Man of sorrows\", What a name",
 
         "stanza_1": [
             "Ni “Mtu wa Simanzi”,",
@@ -3834,7 +3834,7 @@
     {
         "song_number": 86,
         "title": "Damu imebubujika",
-        "subtitle": "",
+        "subtitle": "There is a fountain filled with blood",
 
         "stanza_1": [
             "Damu imebubujika,",
@@ -3892,7 +3892,7 @@
     {
         "song_number": 87,
         "title": "Deni Ya Dhambi ilimalizika",
-        "subtitle": "",
+        "subtitle": "Jesus paid it all",
 
         "stanza_1": [
             "Deni yangu ya dhambi,",
@@ -3939,7 +3939,7 @@
     {
         "song_number": 88,
         "title": "Ndiyo Damu ya Baraka",
-        "subtitle": "",
+        "subtitle": "Blessed be the fountain of Blood",
 
         "stanza_1": [
             "Ndiyo damu ya baraka ituoshayo wakosa,",
@@ -3979,7 +3979,7 @@
     {
         "song_number": 89,
         "title": "Kwa Kalvari",
-        "subtitle": "",
+        "subtitle": "At Calvary",
 
         "stanza_1": [
             "Muda mwingi nilipotea,",
@@ -4019,7 +4019,7 @@
     {
         "song_number": 90,
         "title": "Aliteswa Aliteswa",
-        "subtitle": "",
+        "subtitle": "Wounded for me",
 
         "stanza_1": [
             "Aliteswa, aliteswa,",
@@ -4070,7 +4070,7 @@
     {
         "song_number": 91,
         "title": "Mapenzi yako yafanyike",
-        "subtitle": "",
+        "subtitle": "Have Thine own way, Lord",
 
         "stanza_1": [
             "Mapenzi yako yafanyike,",
@@ -4121,7 +4121,7 @@
     {
         "song_number": 92,
         "title": "Nataka Nimjue Yesu",
-        "subtitle": "",
+        "subtitle": "More about Jesus",
 
         "stanza_1": [
             "Nataka nimjue Yesu,",
@@ -4160,7 +4160,7 @@
     {
         "song_number": 93,
         "title": "Bwana Amefufuka",
-        "subtitle": "",
+        "subtitle": "Christ the Lord is risen today",
 
         "stanza_1": [
             "Bwana amefufuka, Aleluya.",
@@ -4211,7 +4211,7 @@
     {
         "song_number": 94,
         "title": "Siku ya Mbinguni kujawa na sifa",
-        "subtitle": "",
+        "subtitle": "One day when Heaven was filled with his praises",
 
         "stanza_1": [
             "Siku ya Mbinguni kujawa na sifa,",
@@ -4258,7 +4258,7 @@
     {
         "song_number": 95,
         "title": "Hivi vita vimekoma",
-        "subtitle": "",
+        "subtitle": "The strife is o'er",
 
         "stanza_1": [
             "Hivi vita vimekoma,",
@@ -4302,7 +4302,7 @@
     {
         "song_number": 96,
         "title": "Mle kaburini Yesu Mwokozi!",
-        "subtitle": "",
+        "subtitle": "Low in the grave he lay",
 
         "stanza_1": [
             "Mle kaburini, Yesu Mwokozi!",
@@ -4336,7 +4336,7 @@
     {
         "song_number": 97,
         "title": "Tazameni huyo ndiye",
-        "subtitle": "",
+        "subtitle": "Look ye saints the site is glorious",
 
         "stanza_1": [
             "Tazameni huyo ndiye,",
@@ -4381,7 +4381,7 @@
     {
         "song_number": 98,
         "title": "Huyo ndiye! anashuka",
-        "subtitle": "",
+        "subtitle": "Lo, He comes with clouds decending",
 
         "stanza_1": [
             "Huyo ndiye! anashuka,",
@@ -4434,7 +4434,7 @@
     {
         "song_number": 99,
         "title": "Maelfu na maelfu",
-        "subtitle": "",
+        "subtitle": "Ten thousand times ten thousand",
 
         "stanza_1": [
             "Maelfu na maelfu",
@@ -4529,7 +4529,7 @@
     {
         "song_number": 101,
         "title": "Twonane milele",
-        "subtitle": "",
+        "subtitle": "In the sweet by - and - by",
 
         "stanza_1": [
             "Nyimbo na tuziimbe tena",
@@ -4576,7 +4576,7 @@
     {
         "song_number": 102,
         "title": "Kazi yangu ikiisha",
-        "subtitle": "",
+        "subtitle": "When my life work is ended",
 
         "stanza_1": [
             "Kazi yangu ikiisha, nami nikiokoka;",
@@ -4616,7 +4616,7 @@
     {
         "song_number": 103,
         "title": "Kaa Nami",
-        "subtitle": "",
+        "subtitle": "Abide with me",
 
         "stanza_1": [
             "Kaa nami, ni usiku tena;",
@@ -4660,7 +4660,7 @@
     {
         "song_number": 104,
         "title": "Twasoma, ni njema sana",
-        "subtitle": "",
+        "subtitle": "There is a better world they say",
 
         "stanza_1": [
             "Twasoma, ni njema sana",
@@ -4724,7 +4724,7 @@
     {
         "song_number": 105,
         "title": "Kuwatafuta",
-        "subtitle": "",
+        "subtitle": "Seeking the lost",
 
         "stanza_1": [
             "Kuwatafuta wasioweza,",
@@ -4757,7 +4757,7 @@
     {
         "song_number": 106,
         "title": "Mungu awe nanyi daima",
-        "subtitle": "",
+        "subtitle": "God be with you till we meet again",
 
         "stanza_1": [
             "Mungu awe nanyi daima,",
@@ -4797,7 +4797,7 @@
     {
         "song_number": 107,
         "title": "Ewe, Baba wa Mbinguni",
-        "subtitle": "",
+        "subtitle": "Heavenly Father, hear our prayer",
 
         "stanza_1": [
             "Ewe, Baba wa Mbinguni,",
@@ -4851,7 +4851,7 @@
     {
         "song_number": 108,
         "title": "Twenenda Sayuni",
-        "subtitle": "",
+        "subtitle": "We're matching to Zion",
 
         "stanza_1": [
             "Mpendao Bwana",
@@ -4898,7 +4898,7 @@
     {
         "song_number": 109,
         "title": "Nitaimba ya Yesu",
-        "subtitle": "",
+        "subtitle": "My song shall be of Jesus",
 
         "stanza_1": [
             "Nitaimba ya Yesu,",
@@ -4940,7 +4940,7 @@
     {
         "song_number": 110,
         "title": "Mapya ni mapenzi hayo",
-        "subtitle": "",
+        "subtitle": "New every morning is the love",
 
         "stanza_1": [
             "Mapya ni mapenzi hayo,",
@@ -4991,7 +4991,7 @@
     {
         "song_number": 111,
         "title": "Neno Lako Bwana",
-        "subtitle": "",
+        "subtitle": "Lord, Thy word abideth",
 
         "stanza_1": [
             "Neno lako, Bwana,",
@@ -5042,7 +5042,7 @@
     {
         "song_number": 112,
         "title": "Nilikupa Wewe Maisha Yangu",
-        "subtitle": "",
+        "subtitle": "I gave my life for Thee",
 
         "stanza_1": [
             "Nilikupa wewe",
@@ -5105,7 +5105,7 @@
     {
         "song_number": 113,
         "title": "Ni Mfalme wa mapenzi",
-        "subtitle": "",
+        "subtitle": "The King of love my shepherd is",
 
         "stanza_1": [
             "Ni Mfalme wa mapenzi",
@@ -5156,7 +5156,7 @@
     {
         "song_number": 114,
         "title": "Bwana Mungu, nashangaa kabisa",
-        "subtitle": "",
+        "subtitle": "How great Thou art",
 
         "stanza_1": [
             "Bwana Mungu, nashangaa kabisa",
@@ -5196,7 +5196,7 @@
     {
         "song_number": 115,
         "title": "Kilima kando ya mji",
-        "subtitle": "",
+        "subtitle": "There is a green hill far away",
 
         "stanza_1": [
             "Kilima kando ya mji",
@@ -5247,7 +5247,7 @@
     {
         "song_number": 116,
         "title": "Bwana u sehemu yangu",
-        "subtitle": "",
+        "subtitle": "Thou my everlasting portion",
 
         "stanza_1": [
             "Bwana u sehemu yangu,",
@@ -5289,7 +5289,7 @@
     {
         "song_number": 117,
         "title": "Tufani inapovuma",
-        "subtitle": "",
+        "subtitle": "When the storms of life raging",
 
         "stanza_1": [
             "Tufani inapovuma",
@@ -5329,7 +5329,7 @@
     {
         "song_number": 118,
         "title": "Ni Ujumbe Wa Bwana",
-        "subtitle": "",
+        "subtitle": "I've a message from the Lord, Hallelujah",
 
         "stanza_1": [
             "Ni ujumbe wa Bwana haleluya, wa maisha ya daima,",
@@ -5354,7 +5354,7 @@
     {
         "song_number": 119,
         "title": "Si damu ya nyama",
-        "subtitle": "",
+        "subtitle": "Not all the blood of beast",
 
         "stanza_1": [
             "Si damu ya nyama",
@@ -5398,7 +5398,7 @@
     {
         "song_number": 120,
         "title": "Enyi wanadamu",
-        "subtitle": "",
+        "subtitle": "Souls of men, why will ye scatter?",
 
         "stanza_1": [
             "Enyi wanadamu mbona",
@@ -5462,7 +5462,7 @@
     {
         "song_number": 121,
         "title": "Liko lango moja wazi",
-        "subtitle": "",
+        "subtitle": "The gate ajar for me",
 
         "stanza_1": [
             "Liko lango moja wazi,",
@@ -5556,7 +5556,7 @@
     {
         "song_number": 123,
         "title": "Nimeketi mimi nili kipofu",
-        "subtitle": "",
+        "subtitle": "Sitting by the wayside",
 
         "stanza_1": [
             "Nimeketi mimi nili kipofu",
@@ -5589,7 +5589,7 @@
     {
         "song_number": 124,
         "title": "Mungu ulisema",
-        "subtitle": "",
+        "subtitle": "Thou whose Almighty word",
 
         "stanza_1": [
             "Mungu ulisema,",
@@ -5637,7 +5637,7 @@
     {
         "song_number": 125,
         "title": "Ati twonane mtoni?",
-        "subtitle": "",
+        "subtitle": "Shall we gather at the river?",
 
         "stanza_1": [
             "Ati twonane mtoni?",
@@ -5677,7 +5677,7 @@
     {
         "song_number": 126,
         "title": "Ni mji mzuri",
-        "subtitle": "",
+        "subtitle": "There is a happy land",
 
         "stanza_1": [
             "Ni mji mzuri,",
@@ -5730,7 +5730,7 @@
     {
         "song_number": 127,
         "title": "Bwana Yesu Atakuja",
-        "subtitle": "",
+        "subtitle": "Jesus our blessed Lord, will come",
 
         "stanza_1": [
             "Bwana Yesu atakuja, Vumilia!",
@@ -5779,7 +5779,7 @@
     {
         "song_number": 128,
         "title": "Mmoja apita wote",
-        "subtitle": "",
+        "subtitle": "Oh how He loves",
 
         "stanza_1": [
             "Mmoja apita wote,",
@@ -5832,7 +5832,7 @@
     {
         "song_number": 129,
         "title": "Karibu na wewe",
-        "subtitle": "",
+        "subtitle": "Nearer, my God, to Thee",
 
         "stanza_1": [
             "Karibu na wewe,",
@@ -5885,7 +5885,7 @@
     {
         "song_number": 130,
         "title": "Niongoze, Bwana Mungu",
-        "subtitle": "",
+        "subtitle": "Guide me. O Thou great Jehovah",
 
         "stanza_1": [
             "Niongoze, Bwana Mungu,",
@@ -5921,7 +5921,7 @@
     {
         "song_number": 131,
         "title": "Piga sana vita vyema",
-        "subtitle": "",
+        "subtitle": "Fight the good fight",
 
         "stanza_1": [
             "Piga sana vita vyema",
@@ -5958,7 +5958,7 @@
     {
         "song_number": 132,
         "title": "Sauti sikilizeni",
-        "subtitle": "",
+        "subtitle": "Hark the sound of holy voices",
 
         "stanza_1": [
             "Sauti sikilizeni",
@@ -6011,7 +6011,7 @@
     {
         "song_number": 133,
         "title": "Ni wako Mungu",
-        "subtitle": "",
+        "subtitle": "My God, I am thine",
 
         "stanza_1": [
             "Ni wako Mungu!",
@@ -6053,7 +6053,7 @@
     {
         "song_number": 134,
         "title": "Juu yake langu shaka",
-        "subtitle": "",
+        "subtitle": "All my doubts I give to Jesus",
 
         "stanza_1": [
             "Juu yake langu shaka,",
@@ -6100,7 +6100,7 @@
     {
         "song_number": 135,
         "title": "Mapenzi ya milele",
-        "subtitle": "",
+        "subtitle": "Loved with everlasting love",
 
         "stanza_1": [
             "Mapenzi ya milele",
@@ -6161,7 +6161,7 @@
     {
         "song_number": 136,
         "title": "Msifuni, Yesu ndiye mkombozi",
-        "subtitle": "",
+        "subtitle": "Praise Him! Praise Him!",
 
         "stanza_1": [
             "Msifuni ,Yesu ndiye mkombozi;",
@@ -6203,7 +6203,7 @@
     {
         "song_number": 137,
         "title": "Yesu mponya",
-        "subtitle": "",
+        "subtitle": "Precious Saviour",
 
         "stanza_1": [
             "Yesu ndiye mganga wetu",
@@ -6250,7 +6250,7 @@
     {
         "song_number": 138,
         "title": "Tukutendereza Yesu (Luganda)",
-        "subtitle": "",
+        "subtitle": "Precious Saviour",
 
         "stanza_1": [
             "Yesu, Mulokozi wange:",
