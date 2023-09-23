@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:wakelock/wakelock.dart';
 
 import '../utils/share.dart';
 
@@ -25,6 +26,7 @@ class _DetailPageState extends State<DetailPage> {
 
   @override
   Widget build(BuildContext context) {
+    Wakelock.enable();
     return Scaffold(
       appBar: AppBar(
         title: Text("${widget.item['song_number']}. ${widget.item['title']}"),
@@ -44,18 +46,22 @@ class _DetailPageState extends State<DetailPage> {
           for (var index = 0; index <= widget.item.length - 4; index++)
             if (widget.item.containsKey('stanza_$index')) ...[
               if (index == 2) ...[
-                for (String line in widget.item['chorus'])
-                  Text(
-                    line,
-                    textAlign: TextAlign.center,
-                    style: TextStyle(
-                        fontSize: 20,
-                        fontStyle: FontStyle.italic,
-                        color: Colors.amber[900]),
-                  ),
-                const SizedBox(
-                  height: 20,
-                )
+                if (widget.item.containsKey('chorus_$index'))
+                  ...[]
+                else ...[
+                  for (String line in widget.item['chorus'])
+                    Text(
+                      line,
+                      textAlign: TextAlign.center,
+                      style: TextStyle(
+                          fontSize: 20,
+                          fontStyle: FontStyle.italic,
+                          color: Colors.amber[900]),
+                    ),
+                  const SizedBox(
+                    height: 20,
+                  )
+                ]
               ],
               Text(
                 '$index.',
@@ -73,9 +79,29 @@ class _DetailPageState extends State<DetailPage> {
                     fontSize: 20,
                   ),
                 ),
-              const SizedBox(
-                height: 20,
-              )
+              if (widget.item['song_number'] == 140 ||
+                  widget.item['song_number'] == 142 ||
+                  widget.item['song_number'] == 145)
+                ...[]
+              else ...[
+                const SizedBox(
+                  height: 20,
+                ),
+              ],
+              if (widget.item.containsKey('chorus_$index')) ...[
+                for (String line in widget.item['chorus_$index'])
+                  Text(
+                    line,
+                    textAlign: TextAlign.center,
+                    style: TextStyle(
+                        fontSize: 20,
+                        fontStyle: FontStyle.italic,
+                        color: Colors.amber[900]),
+                  ),
+                const SizedBox(
+                  height: 20,
+                )
+              ]
             ]
         ],
       ),

@@ -42,7 +42,7 @@ class _ClickableListScreenState extends State<ClickableListScreen> {
     remindDays: 2,
     remindLaunches: 5,
     appStoreIdentifier: '',
-    googlePlayIdentifier: '',
+    googlePlayIdentifier: 'ke.co.mydeals.tenzi_za_rohoni',
   );
 
   List<Map<String, dynamic>>? itemList; // Make itemList nullable
@@ -106,19 +106,23 @@ class _ClickableListScreenState extends State<ClickableListScreen> {
   Future<void> loadFavourites() async {
     // Load favorites from shared preferences
     SharedPreferences prefs = await SharedPreferences.getInstance();
-    String favouritesString = prefs.getString('favourites') ?? '[]';
+    List<int> favorites = prefs
+            .getStringList('favorites')
+            ?.map((item) => int.parse(item))
+            .toList() ??
+        [];
 
     setState(() {
-      favoritesList = List<int>.from(json.decode(favouritesString));
+      favoritesList = favorites;
     });
   }
 
   Future<void> saveFavorites() async {
     // Save favorites to shared preferences
     SharedPreferences prefs = await SharedPreferences.getInstance();
-    String favoritesString = json.encode(favoritesList);
-
-    prefs.setString('favorites', favoritesString);
+    List<String> favoritesStringList =
+        favoritesList.map((int item) => item.toString()).toList();
+    prefs.setStringList('favorites', favoritesStringList);
   }
 
   Future<void> loadJsonData() async {

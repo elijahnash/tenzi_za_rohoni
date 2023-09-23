@@ -3237,7 +3237,7 @@
             "Akaja kwa mimi."
         ],
 
-        "chorus": [
+        "chorus_1": [
             "Akaja kwa mimi; akaja kwa mimi;",
             "Ndiye mwaokozi wa ulimwengu,",
             "Akaja kwa mimi."
@@ -3250,24 +3250,36 @@
             "Kunifia mimi!"
         ],
 
+        "chorus_2": [
+            "Kunifia mimi! Kunifia mimi!",
+            "Ni la ajabu ya jinsi gani",
+            "Kunifia mimi."
+        ],
+
         "stanza_3": [
-            
+            "Ni yeye huyo tangu asili;",
+            "Na nilipotanga-tanga mbali",
+            "Alikuja kwa upole, kweli",
+            "Kuniita mimi."
+        ],
+
+        "chorus_3": [
+            "Kuniita mimi; Kuniita mimi;",
+            "Alikuja kwa upole, kweli",
+            "Kuniita mimi"
         ],
 
         "stanza_4": [
-            
+            "Yesu kristo atarudi tena,",
+            "Hilo lanifurahisha sana.",
+            "Yeye Bwana akionekana",
+            "Kunijia mimi."
         ],
 
-        "stanza_5": [
-            
-        ],
-
-        "stanza_6": [
-            
-        ],
-
-        "stanza_7": [
-            
+        "chorus_4": [
+            "Kunijia mimi, kunijia mimi,",
+            "Yeye Bwana akionekana",
+            "Kunijia mimi."
         ]
     },
     {
@@ -3948,32 +3960,36 @@
             "Nioshe katika damu, takuwa safi kabisa."
         ],
 
-        "chorus": [
-            
+        "chorus_1": [
+            "Safi kabisa; safi kabisa!",
+            "Nioshe katika damu;",
+            "Takuwa safi kabisa."
         ],
 
         "stanza_2": [
-            
+            "Yesu alivikwa miiba, na kuangikwa Mtini,",
+            "Na maumivu si haba yaliyompata chini.",
+            "Nataka kijito hicho niende kuoga sasa;",
+            "Ndicho kinitakasacho, nami ni safi kabisa."
+        ],
+
+        "chorus_2": [
+            "Safi kabisa; safi kabisa!",
+            "Ndicho kinitakasacho,",
+            "Nami ni safi kabisa."
         ],
 
         "stanza_3": [
-            
+            "Baba, kweli nimekosa, moyo wangu ni dhaifu;",
+            "Dhambi ni nyingi kabisa, nipate wapi wokovu?",
+            "Yesu kijitoni pako, naja naamini sasa;",
+            "Nioshe kwa damu yako, takuwa safi kabisa."
         ],
 
-        "stanza_4": [
-            
-        ],
-
-        "stanza_5": [
-            
-        ],
-
-        "stanza_6": [
-            
-        ],
-
-        "stanza_7": [
-            
+        "chorus_3": [
+            "Safi kabisa; safi kabisa!",
+            "Nioshe kwa damu yako,",
+            "Nami ni safi kabisa."
         ]
     },
     {
@@ -6309,32 +6325,37 @@
             "kwa huruma tu,"
         ],
 
-        "chorus": [
-            
+        "chorus_1": [
+            "ukanitulize",
+            "mimi maskini."
         ],
 
         "stanza_2": [
-            
+            "Futa dhambi zangu",
+            "kwa damu yako.",
+            "Hasira ya Mungu",
+            "iniondoke.",
+            "Machubuko yako,",
+            "hata mateso,"
+        ],
+
+        "chorus_2": [
+            "niyawaze vema",
+            "rohoni mwangu."
         ],
 
         "stanza_3": [
-            
+            "Nakutumaini",
+            "peke yako tu,",
+            "niwe mtumwa wako",
+            "pote nilipo",
+            "utanikubali",
+            "sina mashaka!"
         ],
 
-        "stanza_4": [
-            
-        ],
-
-        "stanza_5": [
-            
-        ],
-
-        "stanza_6": [
-            
-        ],
-
-        "stanza_7": [
-            
+        "chorus_3": [
+            "Nitakushukuru",
+            "pasipo mwisho."
         ]
     },
     {
@@ -6343,35 +6364,43 @@
         "subtitle": "",
 
         "stanza_1": [
-            
+            "Mahali ni pazuri,",
+            "ndugu wanapokaa,"
         ],
 
-        "chorus": [
-            
+        "chorus_1": [
+            "wakipatana vema,",
+            "na wakipendana."
         ],
 
         "stanza_2": [
-            
+            "Kama umande mzuri,",
+            "unyweshavyo shamba,"
+        ],
+
+        "chorus_2": [
+            "vivyo na Mungu wetu,",
+            "hubariki ndugu. "
         ],
 
         "stanza_3": [
-            
+            "Upendano hujenga,",
+            "boma zuri kwao,"
+        ],
+
+        "chorus_3": [
+            "wakae na amani,",
+            "waliookakoka. "
         ],
 
         "stanza_4": [
-            
+            "Na ulimwengu wote,",
+            "watiwa nuruni,"
         ],
 
-        "stanza_5": [
-            
-        ],
-
-        "stanza_6": [
-            
-        ],
-
-        "stanza_7": [
-            
+        "chorus_4": [
+            "halafu kundi moja,",
+            "na mchunga mmoja tu."
         ]
     },
     {
@@ -6423,35 +6452,43 @@
         "subtitle": "",
 
         "stanza_1": [
-            
+            "Babangu kule mbinguni,",
+            "aliye juu pa malaika,"
         ],
 
-        "chorus": [
-            
+        "chorus_1": [
+            "aangalia njia zangu",
+            "na kunilinda maisha."
         ],
 
         "stanza_2": [
-            
+            "Hata unywele kichwani",
+            "hauanguki ovyo tu"
+        ],
+
+        "chorus_2": [
+            "na siri zote za moyoni",
+            "zajulikana kwa Baba."
         ],
 
         "stanza_3": [
-            
+            "Zamani nisipojua,",
+            "amekwisha kuandika"
+        ],
+
+        "chorus_3": [
+            "mkononi mwake jina langu,",
+            "ndio upedo wake mkuu."
         ],
 
         "stanza_4": [
-            
+            "Ee Baba yangu u mwema,",
+            "nami nataka kufanya"
         ],
 
-        "stanza_5": [
-            
-        ],
-
-        "stanza_6": [
-            
-        ],
-
-        "stanza_7": [
-            
+        "chorus_4": [
+            "kama malaika wafanyavyo",
+            "mbinguni kwako milele!."
         ]
     },
     {
@@ -6529,35 +6566,69 @@
         "subtitle": "",
 
         "stanza_1": [
-            
+            "Ndoa yetu nzima",
+            "simika, Yesu!",
+            "Usiku na mchana",
+            "uwepo kwetu.",
+            "Leo tuna raha,",
+            "Wewe watupa."
         ],
 
-        "chorus": [
-            
+        "chorus_1": [
+            "Ndoa yetu Bwana",
+            "ndiwe Baraka!"
         ],
 
         "stanza_2": [
-            
+            "Atoka kijana,",
+            "ataka mchumba",
+            "siku zinapita",
+            "za kupimana.",
+            "Leo twapatana",
+            "pamoja kukaa"
+        ],
+
+        "chorus_2": [
+            "Ndoa yetu…"
         ],
 
         "stanza_3": [
-            
+            "Vyote hapa chini",
+            "vinakaa muda,",
+            "vyote vinaoza,",
+            "tena vyachakaa.",
+            "Pendo la duniani",
+            "nalo huchakaa"
+        ],
+
+        "chorus_3": [
+            "Ndoa yetu…"
         ],
 
         "stanza_4": [
-            
+            "Kakaa kwetu Bwana,",
+            "kutukagua,",
+            "pendo letu sisi",
+            "lisichakae:",
+            "Hivi na tukae",
+            "na baraka tu."
+        ],
+
+        "chorus_4": [
+            "Ndoa yetu…"
         ],
 
         "stanza_5": [
-            
+            "Kana arusuni",
+            "ulialikwa,",
+            "walivyoishiwa",
+            "ukaongeza,",
+            "nasi shida zetu",
+            "utazishinda."
         ],
 
-        "stanza_6": [
-            
-        ],
-
-        "stanza_7": [
-            
+        "chorus_5": [
+            "Ndoa yetu..."
         ]
     },
     {

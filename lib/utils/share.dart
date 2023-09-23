@@ -17,9 +17,15 @@ class SongShare {
         }
       }
       if (item.containsKey('stanza_$i')) {
-        songDetails += '$i:\n';
+        songDetails += '$i: ';
         for (String line in item['stanza_$i']) {
           songDetails += '$line\n';
+        }
+        songDetails += '\n';
+        if (item.containsKey("chorus_$i")) {
+          for (String line in item['chorus_$i']) {
+            songDetails += '$line\n';
+          }
         }
         songDetails += '\n';
       }
@@ -47,13 +53,13 @@ class AppShare {
 
       Njoo ujisikie upako wa nyimbo za injili kutoka katika kitabu cha "Tenzi za Rohoni." Pata tenzi zako pendwa na usome mashairi ya nyimbo zinazokugusa moyo.
 
-      Pakua App hii bure hapa: [Link ya App]
+      Pakua App hii bure hapa: https://play.google.com/store/apps/details?id=ke.co.mydeals.tenzi_za_rohoni
 
       Tumia na ujumuishe wengine katika ibada yako. Neno la Bwana liendelee kutamalaki mioyoni mwetu!
 
       Barikiwa sana! 🌟✨
 
-      [Link ya App]: [link]
+      https://play.google.com/store/apps/details?id=ke.co.mydeals.tenzi_za_rohoni: Tenzi za Rohoni
     ''';
 
     try {
