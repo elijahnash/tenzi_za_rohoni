@@ -134,6 +134,7 @@ class SongSearchDelegate extends SearchDelegate<Map<String, dynamic>> {
                   item: searchResults[index],
                   favoritesList: const [],
                   itemList: const [],
+                  iconButtonPressed: (void value) {},
                 ),
               ),
             );

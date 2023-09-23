@@ -7,12 +7,14 @@ class DetailPage extends StatefulWidget {
   final List<Map<String, dynamic>>? itemList;
   final Map<String, dynamic> item;
   final List<int> favoritesList;
+  final ValueChanged<void> iconButtonPressed;
 
   const DetailPage({
     super.key,
     required this.item,
     required this.favoritesList,
     required this.itemList,
+    required this.iconButtonPressed,
   });
 
   @override
@@ -22,6 +24,12 @@ class DetailPage extends StatefulWidget {
 class _DetailPageState extends State<DetailPage> {
   bool isLiked() {
     return widget.favoritesList.contains(widget.itemList!.indexOf(widget.item));
+  }
+
+  void onPressed() {
+    setState(() {
+      widget.iconButtonPressed(widget.itemList!.indexOf(widget.item));
+    });
   }
 
   @override
@@ -107,15 +115,7 @@ class _DetailPageState extends State<DetailPage> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
-          setState(() {
-            if (widget.favoritesList
-                .contains(widget.itemList!.indexOf(widget.item))) {
-              widget.favoritesList
-                  .remove(widget.itemList!.indexOf(widget.item));
-            } else {
-              widget.favoritesList.add(widget.itemList!.indexOf(widget.item));
-            }
-          });
+          onPressed();
         },
         tooltip: "Favourites",
         backgroundColor: Colors.amber[50],

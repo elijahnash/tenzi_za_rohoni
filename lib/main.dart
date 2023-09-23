@@ -45,7 +45,7 @@ class _ClickableListScreenState extends State<ClickableListScreen> {
     googlePlayIdentifier: 'ke.co.mydeals.tenzi_za_rohoni',
   );
 
-  List<Map<String, dynamic>>? itemList; // Make itemList nullable
+  List<Map<String, dynamic>>? itemList;
   List<int> favoritesList = [];
   List<Map<String, dynamic>> _searchResults = [];
   String _searchQuery = '';
@@ -135,6 +135,17 @@ class _ClickableListScreenState extends State<ClickableListScreen> {
     });
   }
 
+  void _iconButtonPressed(index) {
+    setState(() {
+      if (favoritesList.contains(index)) {
+        favoritesList.remove(index);
+      } else {
+        favoritesList.add(index);
+      }
+      saveFavorites();
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     if (itemList == null) {
@@ -186,14 +197,15 @@ class _ClickableListScreenState extends State<ClickableListScreen> {
                 color: favoritesList.contains(index) ? Colors.red : Colors.grey,
               ),
               onPressed: () {
-                setState(() {
-                  if (favoritesList.contains(index)) {
-                    favoritesList.remove(index);
-                  } else {
-                    favoritesList.add(index);
-                  }
-                });
-                saveFavorites(); // Save the updated favorites list
+                // setState(() {
+                //   if (favoritesList.contains(index)) {
+                //     favoritesList.remove(index);
+                //   } else {
+                //     favoritesList.add(index);
+                //   }
+                // });
+                // saveFavorites(); // Save the updated favorites list
+                _iconButtonPressed(index);
               },
             ),
             title: Text(itemList![index]['title']),
@@ -215,6 +227,7 @@ class _ClickableListScreenState extends State<ClickableListScreen> {
                     item: itemList![index],
                     favoritesList: favoritesList,
                     itemList: itemList,
+                    iconButtonPressed: _iconButtonPressed,
                   ),
                 ),
               );
