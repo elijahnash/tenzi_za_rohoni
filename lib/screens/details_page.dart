@@ -6,13 +6,13 @@ import '../utils/share.dart';
 class DetailPage extends StatefulWidget {
   final List<Map<String, dynamic>>? itemList;
   final Map<String, dynamic> item;
-  final List<int> favoritesList;
+  final List<int> favouritesList;
   final ValueChanged<void> iconButtonPressed;
 
   const DetailPage({
     super.key,
     required this.item,
-    required this.favoritesList,
+    required this.favouritesList,
     required this.itemList,
     required this.iconButtonPressed,
   });
@@ -22,10 +22,6 @@ class DetailPage extends StatefulWidget {
 }
 
 class _DetailPageState extends State<DetailPage> {
-  bool isLiked() {
-    return widget.favoritesList.contains(widget.itemList!.indexOf(widget.item));
-  }
-
   void onPressed() {
     setState(() {
       widget.iconButtonPressed(widget.itemList!.indexOf(widget.item));
@@ -120,8 +116,13 @@ class _DetailPageState extends State<DetailPage> {
         tooltip: "Favourites",
         backgroundColor: Colors.amber[50],
         child: Icon(
-          isLiked() ? Icons.favorite : Icons.favorite_border,
-          color: isLiked() ? Colors.red : Colors.grey,
+          widget.favouritesList.contains(widget.itemList!.indexOf(widget.item))
+              ? Icons.favorite
+              : Icons.favorite_border,
+          color: widget.favouritesList
+                  .contains(widget.itemList!.indexOf(widget.item))
+              ? Colors.red
+              : Colors.grey,
         ),
       ),
     );

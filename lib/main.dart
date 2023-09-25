@@ -46,7 +46,7 @@ class _ClickableListScreenState extends State<ClickableListScreen> {
   );
 
   List<Map<String, dynamic>>? itemList;
-  List<int> favoritesList = [];
+  List<int> favouritesList = [];
   List<Map<String, dynamic>> _searchResults = [];
   String _searchQuery = '';
 
@@ -104,25 +104,25 @@ class _ClickableListScreenState extends State<ClickableListScreen> {
   }
 
   Future<void> loadFavourites() async {
-    // Load favorites from shared preferences
+    // Load favourites from shared preferences
     SharedPreferences prefs = await SharedPreferences.getInstance();
-    List<int> favorites = prefs
-            .getStringList('favorites')
+    List<int> favourites = prefs
+            .getStringList('favourites')
             ?.map((item) => int.parse(item))
             .toList() ??
         [];
 
     setState(() {
-      favoritesList = favorites;
+      favouritesList = favourites;
     });
   }
 
-  Future<void> saveFavorites() async {
-    // Save favorites to shared preferences
+  Future<void> savefavourites() async {
+    // Save favourites to shared preferences
     SharedPreferences prefs = await SharedPreferences.getInstance();
-    List<String> favoritesStringList =
-        favoritesList.map((int item) => item.toString()).toList();
-    prefs.setStringList('favorites', favoritesStringList);
+    List<String> favouritesStringList =
+        favouritesList.map((int item) => item.toString()).toList();
+    prefs.setStringList('favourites', favouritesStringList);
   }
 
   Future<void> loadJsonData() async {
@@ -137,12 +137,12 @@ class _ClickableListScreenState extends State<ClickableListScreen> {
 
   void _iconButtonPressed(index) {
     setState(() {
-      if (favoritesList.contains(index)) {
-        favoritesList.remove(index);
+      if (favouritesList.contains(index)) {
+        favouritesList.remove(index);
       } else {
-        favoritesList.add(index);
+        favouritesList.add(index);
       }
-      saveFavorites();
+      savefavourites();
     });
   }
 
@@ -184,27 +184,24 @@ class _ClickableListScreenState extends State<ClickableListScreen> {
           ),
         ],
       ),
-      drawer: const AppDrawer(),
+      drawer: AppDrawer(
+        favouritesList: favouritesList,
+        itemList: itemList,
+        iconButtonPressed: _iconButtonPressed,
+      ),
       body: ListView.builder(
         itemCount: itemList!.length,
         itemBuilder: (BuildContext context, int index) {
           return ListTile(
             trailing: IconButton(
               icon: Icon(
-                favoritesList.contains(index)
+                favouritesList.contains(index)
                     ? Icons.favorite
                     : Icons.favorite_border,
-                color: favoritesList.contains(index) ? Colors.red : Colors.grey,
+                color:
+                    favouritesList.contains(index) ? Colors.red : Colors.grey,
               ),
               onPressed: () {
-                // setState(() {
-                //   if (favoritesList.contains(index)) {
-                //     favoritesList.remove(index);
-                //   } else {
-                //     favoritesList.add(index);
-                //   }
-                // });
-                // saveFavorites(); // Save the updated favorites list
                 _iconButtonPressed(index);
               },
             ),
@@ -225,7 +222,7 @@ class _ClickableListScreenState extends State<ClickableListScreen> {
                 MaterialPageRoute(
                   builder: (context) => DetailPage(
                     item: itemList![index],
-                    favoritesList: favoritesList,
+                    favouritesList: favouritesList,
                     itemList: itemList,
                     iconButtonPressed: _iconButtonPressed,
                   ),

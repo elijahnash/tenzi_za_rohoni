@@ -132,7 +132,7 @@ class SongSearchDelegate extends SearchDelegate<Map<String, dynamic>> {
               MaterialPageRoute(
                 builder: (context) => DetailPage(
                   item: searchResults[index],
-                  favoritesList: const [],
+                  favouritesList: const [],
                   itemList: const [],
                   iconButtonPressed: (void value) {},
                 ),

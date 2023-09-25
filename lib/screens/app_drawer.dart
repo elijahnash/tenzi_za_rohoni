@@ -4,7 +4,15 @@ import 'package:tenzi_za_rohoni/screens/favourites.dart';
 import 'package:tenzi_za_rohoni/utils/share.dart';
 
 class AppDrawer extends StatelessWidget {
-  const AppDrawer({super.key});
+  final List<Map<String, dynamic>>? itemList;
+  final List<int> favouritesList;
+  final ValueChanged<void> iconButtonPressed;
+
+  const AppDrawer(
+      {super.key,
+      required this.itemList,
+      required this.favouritesList,
+      required this.iconButtonPressed});
 
   // Future<void> _rateApp(BuildContext context) async {
   //   Navigator.pop(context); // Close the drawer
@@ -67,7 +75,11 @@ class AppDrawer extends StatelessWidget {
               Navigator.push(
                 context,
                 MaterialPageRoute(
-                  builder: (context) => const FavouriteSongs(),
+                  builder: (context) => FavouriteSongs(
+                    favouritesList: favouritesList,
+                    itemList: itemList,
+                    iconButtonPressed: iconButtonPressed,
+                  ),
                 ),
               );
             },
