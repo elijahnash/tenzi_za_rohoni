@@ -38,6 +38,7 @@ class _FavouriteSongsState extends State<FavouriteSongs> {
     return Scaffold(
       appBar: AppBar(
         title: const Text("Nyimbo Pendwa"),
+        backgroundColor: Colors.amber[600],
       ),
       body: ListView.builder(
         itemCount: favourites.length,
@@ -76,7 +77,7 @@ class _FavouriteSongsState extends State<FavouriteSongs> {
                     item: widget.itemList![favourites[index]],
                     favouritesList: favourites,
                     itemList: widget.itemList,
-                    iconButtonPressed: widget.iconButtonPressed,
+                    iconButtonPressed: onPressed,
                   ),
                 ),
               );
