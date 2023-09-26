@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:in_app_review/in_app_review.dart';
 import 'package:tenzi_za_rohoni/screens/about.dart';
 import 'package:tenzi_za_rohoni/screens/favourites.dart';
 import 'package:tenzi_za_rohoni/utils/share.dart';
@@ -7,30 +8,13 @@ class AppDrawer extends StatelessWidget {
   final List<Map<String, dynamic>>? itemList;
   final List<int> favouritesList;
   final ValueChanged<void> iconButtonPressed;
+  final InAppReview inAppReview = InAppReview.instance;
 
-  const AppDrawer(
+  AppDrawer(
       {super.key,
       required this.itemList,
       required this.favouritesList,
       required this.iconButtonPressed});
-
-  // Future<void> _rateApp(BuildContext context) async {
-  //   Navigator.pop(context); // Close the drawer
-  //   if (await AppReview.isRequestReviewAvailable) {
-  //     // If running on iOS, use app_review package to open App Store
-  //     await AppReview.requestReview;
-  //   } else {
-  //     // If running on Android, use url_launcher package to open Google Play Store
-  //     final url = Uri.parse(
-  //         'https://play.google.com/store/apps/details?id=com.android.chrome');
-  //     if (await launchUrl(url)) {
-  //       await launchUrl(url);
-  //     } else {
-  //       // Handle the case where the URL can't be launched
-  //       // For example, show a snackbar or dialog with an error message.
-  //     }
-  //   }
-  // }
 
   @override
   Widget build(BuildContext context) {
@@ -63,14 +47,14 @@ class AppDrawer extends StatelessWidget {
             leading: const Icon(Icons.star),
             title: const Text('Tathmini'),
             onTap: () {
-              // _rateApp(context);
+              Navigator.pop(context);
+              inAppReview.openStoreListing;
             },
           ),
           ListTile(
             leading: const Icon(Icons.favorite),
             title: const Text('Nyimbo Pendwa'),
             onTap: () {
-              // Navigate to the home screen or any other desired screen
               Navigator.pop(context); // Close the drawer
               Navigator.push(
                 context,

@@ -59,7 +59,6 @@ class _FavouriteSongsState extends State<FavouriteSongs> {
             ),
             title: Text(widget.itemList![favourites[index]]['title']),
             subtitle: Text(widget.itemList![favourites[index]]['subtitle']),
-            // subtitle: Text(favourites[index].toString()),
             leading: CircleAvatar(
               backgroundColor: Colors.amber[500],
               child: Text(

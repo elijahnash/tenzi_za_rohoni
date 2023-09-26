@@ -26,7 +26,7 @@ class AboutTenzi extends StatelessWidget {
             ),
             const SizedBox(height: 10),
             const Text(
-              'Toleo 1.0.0',
+              'Toleo 1.1.0',
               style: TextStyle(fontSize: 16),
             ),
             const SizedBox(height: 20),
