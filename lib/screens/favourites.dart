@@ -18,24 +18,18 @@ class FavouriteSongs extends StatefulWidget {
 }
 
 class _FavouriteSongsState extends State<FavouriteSongs> {
+  List<int> favourites = [];
+
   @override
   void initState() {
     super.initState();
-    widget.favouritesList.sort();
+    favourites = widget.favouritesList;
+    favourites.sort();
   }
-
-  // Future<void> savefavourites() async {
-  //   // Save favourites to shared preferences
-  //   SharedPreferences prefs = await SharedPreferences.getInstance();
-  //   List<String> favouritesStringList =
-  //       widget.favouritesList.map((int item) => item.toString()).toList();
-  //   prefs.setStringList('favourites', favouritesStringList);
-  // }
 
   void onPressed(index) {
     setState(() {
-      widget.iconButtonPressed(widget.itemList!
-          .indexOf(widget.itemList![widget.favouritesList[index]]));
+      widget.iconButtonPressed(index);
     });
   }
 
@@ -46,40 +40,29 @@ class _FavouriteSongsState extends State<FavouriteSongs> {
         title: const Text("Nyimbo Pendwa"),
       ),
       body: ListView.builder(
-        itemCount: widget.favouritesList.length,
+        itemCount: favourites.length,
         itemBuilder: (BuildContext context, int index) {
           return ListTile(
             trailing: IconButton(
               icon: Icon(
-                widget.favouritesList.contains(widget.favouritesList[index])
+                favourites.contains(favourites[index])
                     ? Icons.favorite
                     : Icons.favorite_border,
-                color:
-                    widget.favouritesList.contains(widget.favouritesList[index])
-                        ? Colors.red
-                        : Colors.grey,
+                color: favourites.contains(favourites[index])
+                    ? Colors.red
+                    : Colors.grey,
               ),
               onPressed: () {
-                onPressed(widget.favouritesList[index]);
-                // setState(() {
-                //   if (favouritesList.contains(index)) {
-                //     favouritesList.remove(index);
-                //   } else {
-                //     favouritesList.add(index);
-                //   }
-                // });
-                // savefavourites(); // Save the updated favourites list
+                onPressed(favourites[index]);
               },
             ),
-            title:
-                Text(widget.itemList![widget.favouritesList[index]]['title']),
-            subtitle: Text(
-                widget.itemList![widget.favouritesList[index]]['subtitle']),
+            title: Text(widget.itemList![favourites[index]]['title']),
+            subtitle: Text(widget.itemList![favourites[index]]['subtitle']),
+            // subtitle: Text(favourites[index].toString()),
             leading: CircleAvatar(
               backgroundColor: Colors.amber[500],
               child: Text(
-                (widget.itemList![widget.favouritesList[index]]['song_number'])
-                    .toString(),
+                (widget.itemList![favourites[index]]['song_number']).toString(),
                 style: const TextStyle(
                     fontWeight: FontWeight.bold, color: Colors.black),
               ),
@@ -90,10 +73,10 @@ class _FavouriteSongsState extends State<FavouriteSongs> {
                 context,
                 MaterialPageRoute(
                   builder: (context) => DetailPage(
-                    item: widget.itemList![widget.favouritesList[index]],
-                    favouritesList: const [],
-                    itemList: const [],
-                    iconButtonPressed: (void value) {},
+                    item: widget.itemList![favourites[index]],
+                    favouritesList: favourites,
+                    itemList: widget.itemList,
+                    iconButtonPressed: widget.iconButtonPressed,
                   ),
                 ),
               );
