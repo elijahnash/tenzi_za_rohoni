@@ -9,7 +9,7 @@ class AboutTenzi extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Kuhusu App'),
+        title: const Text('Kuhusu'),
       ),
       body: Center(
         child: Column(
@@ -26,7 +26,7 @@ class AboutTenzi extends StatelessWidget {
             ),
             const SizedBox(height: 10),
             const Text(
-              'Toleo 1.2.0',
+              'Toleo 1.3.0',
               style: TextStyle(fontSize: 16),
             ),
             const SizedBox(height: 20),
@@ -44,7 +44,7 @@ class AboutTenzi extends StatelessWidget {
             const SizedBox(height: 10),
             Text(
               'tenzi_za_rohoni@mydeals.co.ke',
-              style: TextStyle(color: Colors.amber[900]),
+              style: TextStyle(color: Theme.of(context).colorScheme.secondary),
             ),
             const SizedBox(height: 20),
             ElevatedButton(
@@ -52,8 +52,11 @@ class AboutTenzi extends StatelessWidget {
                 // Add functionality to contact support via email or website.
                 _sendEmail();
               },
-              style: const ButtonStyle(),
-              child: const Text('Wasiliana na Msaada'),
+              style: ButtonStyle(
+                foregroundColor: MaterialStatePropertyAll(
+                    Theme.of(context).colorScheme.primary),
+              ),
+              child: const Text('Wasiliana Nasi'),
             ),
           ],
         ),
@@ -68,8 +71,7 @@ class AboutTenzi extends StatelessWidget {
       queryParameters: {
         'subject':
             'Maoni ya Programu: Tenzi za Rohoni', // You can customize the subject
-        'body':
-            'Habari, nina maoni kuhusu programu...', // Customize the email body
+        'body': '', // Customize the email body
       },
     );
 

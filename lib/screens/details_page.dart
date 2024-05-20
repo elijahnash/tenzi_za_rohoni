@@ -58,9 +58,10 @@ class _DetailPageState extends State<DetailPage> {
                       line,
                       textAlign: TextAlign.center,
                       style: TextStyle(
-                          fontSize: 20,
-                          fontStyle: FontStyle.italic,
-                          color: Colors.amber[900]),
+                        fontSize: 20,
+                        fontStyle: FontStyle.italic,
+                        color: Colors.amber[900],
+                      ),
                     ),
                   const SizedBox(
                     height: 20,
@@ -98,9 +99,10 @@ class _DetailPageState extends State<DetailPage> {
                     line,
                     textAlign: TextAlign.center,
                     style: TextStyle(
-                        fontSize: 20,
-                        fontStyle: FontStyle.italic,
-                        color: Colors.amber[900]),
+                      fontSize: 20,
+                      fontStyle: FontStyle.italic,
+                      color: Colors.amber[900],
+                    ),
                   ),
                 const SizedBox(
                   height: 20,
@@ -113,8 +115,9 @@ class _DetailPageState extends State<DetailPage> {
         onPressed: () {
           onPressed();
         },
-        tooltip: "Favourites",
-        backgroundColor: Colors.amber[50],
+        tooltip: "Nyimbo Pendwa",
+        backgroundColor: Theme.of(context).colorScheme.primaryContainer,
+        shape: const CircleBorder(),
         child: Icon(
           widget.favouritesList.contains(widget.itemList!.indexOf(widget.item))
               ? Icons.favorite
@@ -122,7 +125,7 @@ class _DetailPageState extends State<DetailPage> {
           color: widget.favouritesList
                   .contains(widget.itemList!.indexOf(widget.item))
               ? Colors.red
-              : Colors.grey,
+              : Theme.of(context).colorScheme.onPrimaryContainer,
         ),
       ),
     );

@@ -139,6 +139,20 @@ class SongSearchDelegate extends SearchDelegate<Map<String, dynamic>> {
               ),
             );
           },
+          // onTap: () {
+          //   // Navigate to a new page with the item's details as arguments
+          //   Navigator.push(
+          //     context,
+          //     MaterialPageRoute(
+          //       builder: (context) => DetailPage(
+          //         item: searchResults[index],
+          //         favouritesList: favouritesList,
+          //         itemList: itemList,
+          //         iconButtonPressed: _iconButtonPressed,
+          //       ),
+          //     ),
+          //   );
+          // },
         );
       },
     );

@@ -40,49 +40,80 @@ class _FavouriteSongsState extends State<FavouriteSongs> {
         title: const Text("Nyimbo Pendwa"),
         backgroundColor: Colors.amber[600],
       ),
-      body: ListView.builder(
-        itemCount: favourites.length,
-        itemBuilder: (BuildContext context, int index) {
-          return ListTile(
-            trailing: IconButton(
-              icon: Icon(
-                favourites.contains(favourites[index])
-                    ? Icons.favorite
-                    : Icons.favorite_border,
-                color: favourites.contains(favourites[index])
-                    ? Colors.red
-                    : Colors.grey,
-              ),
-              onPressed: () {
-                onPressed(favourites[index]);
-              },
+      body: favourites.isEmpty ? const HakunaNyimboPendwa() : nyimboPendwa(),
+    );
+  }
+
+  ListView nyimboPendwa() {
+    return ListView.builder(
+      itemCount: favourites.length,
+      itemBuilder: (BuildContext context, int index) {
+        return ListTile(
+          trailing: IconButton(
+            icon: Icon(
+              favourites.contains(favourites[index])
+                  ? Icons.favorite
+                  : Icons.favorite_border,
+              color: favourites.contains(favourites[index])
+                  ? Colors.red
+                  : Colors.grey,
             ),
-            title: Text(widget.itemList![favourites[index]]['title']),
-            subtitle: Text(widget.itemList![favourites[index]]['subtitle']),
-            leading: CircleAvatar(
-              backgroundColor: Colors.amber[500],
-              child: Text(
-                (widget.itemList![favourites[index]]['song_number']).toString(),
-                style: const TextStyle(
-                    fontWeight: FontWeight.bold, color: Colors.black),
-              ),
-            ),
-            onTap: () {
-              // Navigate to a new page with the item's details as arguments
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (context) => DetailPage(
-                    item: widget.itemList![favourites[index]],
-                    favouritesList: favourites,
-                    itemList: widget.itemList,
-                    iconButtonPressed: onPressed,
-                  ),
-                ),
-              );
+            onPressed: () {
+              onPressed(favourites[index]);
             },
-          );
-        },
+          ),
+          title: Text(widget.itemList![favourites[index]]['title']),
+          subtitle: Text(widget.itemList![favourites[index]]['subtitle']),
+          leading: CircleAvatar(
+            backgroundColor: Colors.amber[500],
+            child: Text(
+              (widget.itemList![favourites[index]]['song_number']).toString(),
+              style: const TextStyle(
+                  fontWeight: FontWeight.bold, color: Colors.black),
+            ),
+          ),
+          onTap: () {
+            // Navigate to a new page with the item's details as arguments
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (context) => DetailPage(
+                  item: widget.itemList![favourites[index]],
+                  favouritesList: favourites,
+                  itemList: widget.itemList,
+                  iconButtonPressed: onPressed,
+                ),
+              ),
+            );
+          },
+        );
+      },
+    );
+  }
+}
+
+class HakunaNyimboPendwa extends StatelessWidget {
+  const HakunaNyimboPendwa({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return const Center(
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          Icon(
+            Icons.heart_broken,
+            size: 200,
+            color: Colors.black12,
+          ),
+          Text("Ongeza nyimbo kwa"),
+          Text(
+            "Nyimbo Pedwa",
+            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+          ),
+        ],
       ),
     );
   }

@@ -1,6 +1,7 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:in_app_review/in_app_review.dart';
 import 'package:rate_my_app/rate_my_app.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:tenzi_za_rohoni/screens/app_drawer.dart';
@@ -19,7 +20,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Tenzi za Rohoni',
-      theme: ThemeData(primarySwatch: Colors.amber),
+      theme: ThemeData(
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.amber),
+        useMaterial3: true,
+      ),
       home: const ClickableListScreen(),
     );
   }
@@ -36,10 +40,10 @@ class ClickableListScreen extends StatefulWidget {
 class _ClickableListScreenState extends State<ClickableListScreen> {
   final RateMyApp _rateMyApp = RateMyApp(
     preferencesPrefix: 'rateMyApp_',
-    minDays: 3,
-    minLaunches: 5,
-    remindDays: 2,
-    remindLaunches: 5,
+    minDays: 0, //3,
+    minLaunches: 1, //5,
+    remindDays: 0, //2,
+    remindLaunches: 0, //5,
     appStoreIdentifier: '',
     googlePlayIdentifier: 'ke.co.mydeals.tenzi_za_rohoni',
   );
@@ -48,35 +52,39 @@ class _ClickableListScreenState extends State<ClickableListScreen> {
   List<int> favouritesList = [];
   List<Map<String, dynamic>> _searchResults = [];
   String _searchQuery = '';
+  final InAppReview inAppReview = InAppReview.instance;
 
   @override
   void initState() {
     super.initState();
-    _rateMyApp.init().then((_) {
+    _rateMyApp.init().then((_) async {
       if (_rateMyApp.shouldOpenDialog) {
-        _rateMyApp.showStarRateDialog(
-          context,
-          title: "Je, unafurahia Programu?",
-          message: "Tafadhali tathmini App hii.",
-          dialogStyle: const DialogStyle(
-            titleAlign: TextAlign.center,
-            messageAlign: TextAlign.center,
-            messagePadding: EdgeInsets.only(bottom: 20.0),
-          ),
-          starRatingOptions: const StarRatingOptions(),
-          actionsBuilder: (context, stars) {
-            return [
-              TextButton(
-                child: const Text('Sawa'),
-                onPressed: () {
-                  _rateMyApp.callEvent(RateMyAppEventType.rateButtonPressed);
-                  Navigator.pop<RateMyAppDialogButton>(
-                      context, RateMyAppDialogButton.rate);
-                },
-              ),
-            ];
-          },
-        );
+        if (await inAppReview.isAvailable()) {
+          inAppReview.requestReview();
+        }
+        // _rateMyApp.showStarRateDialog(
+        //   context,
+        //   title: "Je, unafurahia Programu?",
+        //   message: "Tafadhali tathmini App hii.",
+        //   dialogStyle: const DialogStyle(
+        //     titleAlign: TextAlign.center,
+        //     messageAlign: TextAlign.center,
+        //     messagePadding: EdgeInsets.only(bottom: 20.0),
+        //   ),
+        //   starRatingOptions: const StarRatingOptions(),
+        //   actionsBuilder: (context, stars) {
+        //     return [
+        //       TextButton(
+        //         child: const Text('Sawa'),
+        //         onPressed: () {
+        //           _rateMyApp.callEvent(RateMyAppEventType.rateButtonPressed);
+        //           Navigator.pop<RateMyAppDialogButton>(
+        //               context, RateMyAppDialogButton.rate);
+        //         },
+        //       ),
+        //     ];
+        //   },
+        // );
       }
     });
     loadJsonData(); // Call the method to load JSON data
@@ -144,11 +152,11 @@ class _ClickableListScreenState extends State<ClickableListScreen> {
       return Scaffold(
         appBar: AppBar(
           title: const Text('Tenzi za Rohoni'),
-          backgroundColor: Colors.amber[600],
+          backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         ),
         body: Center(
           child: CircularProgressIndicator(
-            color: Colors.amber[600],
+            color: Theme.of(context).colorScheme.inversePrimary,
           ), // Show a loading indicator while loading the JSON data
         ),
       );
@@ -157,7 +165,7 @@ class _ClickableListScreenState extends State<ClickableListScreen> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Tenzi za Rohoni'),
-        backgroundColor: Colors.amber[600],
+        backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         actions: [
           // Add the search icon button to the AppBar
           IconButton(
@@ -190,8 +198,9 @@ class _ClickableListScreenState extends State<ClickableListScreen> {
                 favouritesList.contains(index)
                     ? Icons.favorite
                     : Icons.favorite_border,
-                color:
-                    favouritesList.contains(index) ? Colors.red : Colors.grey,
+                color: favouritesList.contains(index)
+                    ? Colors.red
+                    : Theme.of(context).colorScheme.secondary,
               ),
               onPressed: () {
                 _iconButtonPressed(index);
@@ -200,11 +209,12 @@ class _ClickableListScreenState extends State<ClickableListScreen> {
             title: Text(itemList![index]['title']),
             subtitle: Text(itemList![index]['subtitle']),
             leading: CircleAvatar(
-              backgroundColor: Colors.amber[500],
+              backgroundColor: Theme.of(context).colorScheme.inversePrimary,
               child: Text(
                 (itemList![index]['song_number']).toString(),
-                style: const TextStyle(
-                    fontWeight: FontWeight.bold, color: Colors.black),
+                style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    color: Theme.of(context).colorScheme.onBackground),
               ),
             ),
             onTap: () {
