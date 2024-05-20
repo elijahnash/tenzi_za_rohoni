@@ -58,8 +58,6 @@ class AppShare {
       Tumia na ujumuishe wengine katika ibada yako. Neno la Bwana liendelee kutamalaki mioyoni mwetu!
 
       Barikiwa sana! 🌟✨
-
-      https://play.google.com/store/apps/details?id=ke.co.mydeals.tenzi_za_rohoni: Tenzi za Rohoni
     ''';
 
     try {

@@ -406,7 +406,7 @@
 
         "stanza_1": [
             "'Yesu kwetu ni rafiki,",
-            "Hwamiwa haja pia;",
+            "Hwambiwa haja pia;",
             "Tukiomba kwa Babaye",
             "Maombi asikia;",
             "Lakini twajikosesha,",
@@ -2452,7 +2452,7 @@
 
         "chorus": [
             "Siku kuu! Siku kuu!",
-            "Ya kuoshwa dambi zangu kuu!",
+            "Ya kuoshwa dhambi zangu kuu!",
             "Hukesha na kuomba tu,",
             "Ananiongoza miguu.",
             "Siku kuu! siku kuu!",
@@ -3507,7 +3507,7 @@
         ],
 
         "stanza_3": [
-            "Sipati pataniswa,",
+            "Sipati patanishwa,",
             "Bila damu yake Yesu.",
             "Hukumu yanitisha,",
             "Bila damu yake Yesu."
@@ -4274,7 +4274,7 @@
     {
         "song_number": 95,
         "title": "Hivi vita vimekoma",
-        "subtitle": "The strife is o'er",
+        "subtitle": "The strife is over",
 
         "stanza_1": [
             "Hivi vita vimekoma,",
@@ -4656,7 +4656,7 @@
             "Nina haja nawe kila saa;",
             "Sina mwingine wa kunifaa;",
             "Mimi nitaongozwa na nani",
-            "Ila wewe? Bwana, kaa name."
+            "Ila wewe? Bwana, kaa nami."
         ],
 
         "stanza_4": [
@@ -5348,23 +5348,31 @@
         "subtitle": "I've a message from the Lord, Hallelujah",
 
         "stanza_1": [
-            "Ni ujumbe wa Bwana haleluya, wa maisha ya daima,",
-            "amenena mwenyewe haleluya, utaishi ukitazama "
+            "Ni ujumbe wa Bwana haleluya,",
+            "wa maisha ya daima",
+            "amenena mwenyewe haleluya",
+            "utaishi ukitazama "
         ],
 
         "chorus": [
-            "Tazama, ishi sasa, kumtazama Yesu,",
-            "alinena mwenyewe, haleluya! utaishi ukitazama"
+            "Tazama, ishi sasa,",
+            "kumtazama Yesu,",
+            "alinena mwenyewe, haleluya!",
+            "utaishi ukitazama"
         ],
 
         "stanza_2": [
-            "Uzima wa daima haleluya , kwake Yesu utauona,",
-            "ukimtazama tu haleluya, wokovu u peke kwa Bwana"
+            "Uzima wa daima haleluya,",
+            "kwake Yesu utauona,",
+            "ukimtazama tu haleluya,",
+            "wokovu u peke kwa Bwana"
         ],
 
         "stanza_3": [
-            "Ni ujumbe wa Bwana haleluya, nawe shika rafiki yangu,",
-            "ni habari ya raha haleluya, mwenye kuinena ni Mungu."
+            "Ni ujumbe wa Bwana haleluya,",
+            "nawe shika rafiki yangu,",
+            "ni habari ya raha haleluya,",
+            "mwenye kuinena ni Mungu."
         ]
     },
     {
@@ -6548,16 +6556,21 @@
             "Sina tamani nikae,",
             "Mahali pa shaka, kamwe;",
             "Hapo wengi wanakaa,",
-            "Kuendelea naomba",
-            "Ee, Bwana….."
+            "Kuendelea naomba"
         ],
 
         "stanza_3": [
             "Nisikae duniani,",
             "Ni mahali pa shetani;",
             "Natazamia mbinguni,",
-            "Nitafika na amani.",
-            "Ee, Bwana…."
+            "Nitafika na amani."
+        ],
+
+        "stanza_4": [
+            "Nataka nipandishwe juu,",
+            "Zaidi yale mawingu.",
+            "Nitaomba nifikishwe,",
+            "Ee Bwana unipandishe."
         ]
     },
     {

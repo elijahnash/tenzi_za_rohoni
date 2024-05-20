@@ -48,7 +48,7 @@ class AppDrawer extends StatelessWidget {
             title: const Text('Tathmini'),
             onTap: () {
               Navigator.pop(context);
-              inAppReview.openStoreListing;
+              inAppReview.requestReview();
             },
           ),
           ListTile(
