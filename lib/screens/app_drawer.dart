@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 import 'package:in_app_review/in_app_review.dart';
 import 'package:tenzi_za_rohoni/screens/about.dart';
 import 'package:tenzi_za_rohoni/screens/favourites.dart';
@@ -24,6 +25,7 @@ class AppDrawer extends StatelessWidget {
         children: [
           DrawerHeader(
             decoration: BoxDecoration(
+              border: null,
               color: Colors.amber[50],
             ),
             child: Column(
@@ -48,10 +50,7 @@ class AppDrawer extends StatelessWidget {
             title: const Text('Tathmini'),
             onTap: () {
               Navigator.pop(context);
-              // if (inAppReview.isAvailable()) {
-              // inAppReview.requestReview();
               inAppReview.openStoreListing();
-              // }
             },
           ),
           ListTile(

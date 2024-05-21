@@ -40,10 +40,10 @@ class ClickableListScreen extends StatefulWidget {
 class _ClickableListScreenState extends State<ClickableListScreen> {
   final RateMyApp _rateMyApp = RateMyApp(
     preferencesPrefix: 'rateMyApp_',
-    minDays: 0, //3,
-    minLaunches: 1, //5,
-    remindDays: 0, //2,
-    remindLaunches: 0, //5,
+    minDays: 3,
+    minLaunches: 5,
+    remindDays: 2,
+    remindLaunches: 5,
     appStoreIdentifier: '',
     googlePlayIdentifier: 'ke.co.mydeals.tenzi_za_rohoni',
   );
@@ -62,29 +62,6 @@ class _ClickableListScreenState extends State<ClickableListScreen> {
         if (await inAppReview.isAvailable()) {
           inAppReview.requestReview();
         }
-        // _rateMyApp.showStarRateDialog(
-        //   context,
-        //   title: "Je, unafurahia Programu?",
-        //   message: "Tafadhali tathmini App hii.",
-        //   dialogStyle: const DialogStyle(
-        //     titleAlign: TextAlign.center,
-        //     messageAlign: TextAlign.center,
-        //     messagePadding: EdgeInsets.only(bottom: 20.0),
-        //   ),
-        //   starRatingOptions: const StarRatingOptions(),
-        //   actionsBuilder: (context, stars) {
-        //     return [
-        //       TextButton(
-        //         child: const Text('Sawa'),
-        //         onPressed: () {
-        //           _rateMyApp.callEvent(RateMyAppEventType.rateButtonPressed);
-        //           Navigator.pop<RateMyAppDialogButton>(
-        //               context, RateMyAppDialogButton.rate);
-        //         },
-        //       ),
-        //     ];
-        //   },
-        // );
       }
     });
     loadJsonData(); // Call the method to load JSON data
