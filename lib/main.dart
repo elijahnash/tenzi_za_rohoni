@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:in_app_review/in_app_review.dart';
 import 'package:rate_my_app/rate_my_app.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 import 'package:tenzi_za_rohoni/screens/app_drawer.dart';
 import 'package:tenzi_za_rohoni/screens/details_page.dart';
 import 'package:tenzi_za_rohoni/utils/search.dart';
@@ -191,7 +190,7 @@ class _ClickableListScreenState extends State<ClickableListScreen> {
                 (itemList![index]['song_number']).toString(),
                 style: TextStyle(
                     fontWeight: FontWeight.bold,
-                    color: Theme.of(context).colorScheme.onBackground),
+                    color: Theme.of(context).colorScheme.onSurface),
               ),
             ),
             onTap: () {

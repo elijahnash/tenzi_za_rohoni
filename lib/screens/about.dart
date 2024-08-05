@@ -26,7 +26,7 @@ class AboutTenzi extends StatelessWidget {
             ),
             const SizedBox(height: 10),
             const Text(
-              'Toleo 1.3.0',
+              'Toleo 1.5.0',
               style: TextStyle(fontSize: 16),
             ),
             const SizedBox(height: 20),
@@ -53,7 +53,7 @@ class AboutTenzi extends StatelessWidget {
                 _sendEmail();
               },
               style: ButtonStyle(
-                foregroundColor: MaterialStatePropertyAll(
+                foregroundColor: WidgetStatePropertyAll(
                     Theme.of(context).colorScheme.primary),
               ),
               child: const Text('Wasiliana Nasi'),

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:in_app_review/in_app_review.dart';
 import 'package:tenzi_za_rohoni/screens/about.dart';
 import 'package:tenzi_za_rohoni/screens/favourites.dart';
