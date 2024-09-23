@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:wakelock/wakelock.dart';
+// import 'package:wakelock/wakelock.dart';
 
 import '../utils/share.dart';
 
@@ -30,11 +30,16 @@ class _DetailPageState extends State<DetailPage> {
 
   @override
   Widget build(BuildContext context) {
-    Wakelock.enable();
+    // Wakelock.enable();
     return Scaffold(
       appBar: AppBar(
-        title: Text("${widget.item['song_number']}. ${widget.item['title']}"),
-        backgroundColor: Colors.amber[600],
+        title: Text(
+          "${widget.item['song_number']}. ${widget.item['title']}",
+          style: TextStyle(
+            color: Theme.of(context).colorScheme.onPrimaryContainer,
+          ),
+        ),
+        backgroundColor: Theme.of(context).colorScheme.primaryContainer,
         actions: [
           // Add the share icon button to the AppBar
           IconButton(

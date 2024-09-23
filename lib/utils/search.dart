@@ -116,12 +116,12 @@ class SongSearchDelegate extends SearchDelegate<Map<String, dynamic>> {
           title: Text(searchResults[index]['title']),
           subtitle: Text(searchResults[index]['subtitle']),
           leading: CircleAvatar(
-            backgroundColor: Colors.amber[500],
+            backgroundColor: Theme.of(context).colorScheme.primaryContainer,
             child: Text(
               (searchResults[index]['song_number']).toString(),
-              style: const TextStyle(
+              style: TextStyle(
                 fontWeight: FontWeight.bold,
-                color: Colors.black,
+                color: Theme.of(context).colorScheme.onPrimaryContainer,
               ),
             ),
           ),
@@ -171,7 +171,7 @@ class SongSearchDelegate extends SearchDelegate<Map<String, dynamic>> {
           title: Text(searchSuggestions[index]['title']),
           subtitle: Text(searchSuggestions[index]['subtitle']),
           leading: CircleAvatar(
-            backgroundColor: Colors.amber[500],
+            backgroundColor: Theme.of(context).colorScheme.primaryContainer,
             child: Text(
               (searchSuggestions[index]['song_number']).toString(),
               style: const TextStyle(

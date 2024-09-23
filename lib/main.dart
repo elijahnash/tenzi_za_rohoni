@@ -20,7 +20,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Tenzi za Rohoni',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.amber),
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: Colors.amber,
+        ),
         useMaterial3: true,
       ),
       home: const ClickableListScreen(),
@@ -128,11 +130,11 @@ class _ClickableListScreenState extends State<ClickableListScreen> {
       return Scaffold(
         appBar: AppBar(
           title: const Text('Tenzi za Rohoni'),
-          backgroundColor: Theme.of(context).colorScheme.inversePrimary,
+          backgroundColor: Theme.of(context).colorScheme.onPrimaryContainer,
         ),
         body: Center(
           child: CircularProgressIndicator(
-            color: Theme.of(context).colorScheme.inversePrimary,
+            color: Theme.of(context).colorScheme.primaryContainer,
           ), // Show a loading indicator while loading the JSON data
         ),
       );
@@ -140,12 +142,20 @@ class _ClickableListScreenState extends State<ClickableListScreen> {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Tenzi za Rohoni'),
-        backgroundColor: Theme.of(context).colorScheme.inversePrimary,
+        title: Text(
+          'Tenzi za Rohoni',
+          style: TextStyle(
+            color: Theme.of(context).colorScheme.onPrimaryContainer,
+          ),
+        ),
+        backgroundColor: Theme.of(context).colorScheme.primaryContainer,
         actions: [
           // Add the search icon button to the AppBar
           IconButton(
-            icon: const Icon(Icons.search),
+            icon: Icon(
+              Icons.search,
+              color: Theme.of(context).colorScheme.onPrimaryContainer,
+            ),
             onPressed: () {
               showSearch(
                 context: context,
@@ -185,12 +195,13 @@ class _ClickableListScreenState extends State<ClickableListScreen> {
             title: Text(itemList![index]['title']),
             subtitle: Text(itemList![index]['subtitle']),
             leading: CircleAvatar(
-              backgroundColor: Theme.of(context).colorScheme.inversePrimary,
+              backgroundColor: Theme.of(context).colorScheme.primaryContainer,
               child: Text(
                 (itemList![index]['song_number']).toString(),
                 style: TextStyle(
-                    fontWeight: FontWeight.bold,
-                    color: Theme.of(context).colorScheme.onSurface),
+                  fontWeight: FontWeight.bold,
+                  color: Theme.of(context).colorScheme.onPrimaryContainer,
+                ),
               ),
             ),
             onTap: () {

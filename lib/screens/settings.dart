@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:wakelock/wakelock.dart';
+// import 'package:wakelock/wakelock.dart';
 
 class TenziSettings extends StatefulWidget {
   const TenziSettings({super.key});
@@ -32,7 +32,7 @@ class _TenziSettingsState extends State<TenziSettings> {
               onChanged: (value) {
                 setState(() {
                   preventScreenOff = value;
-                  Wakelock.toggle(enable: preventScreenOff);
+                  // Wakelock.toggle(enable: preventScreenOff);
                 });
               },
             ),
