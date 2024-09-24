@@ -77,9 +77,10 @@ class _DetailPageState extends State<DetailPage> {
                 '$index.',
                 textAlign: TextAlign.center,
                 style: TextStyle(
-                    fontWeight: FontWeight.bold,
-                    color: Colors.amber[900],
-                    fontSize: 18),
+                  fontWeight: FontWeight.bold,
+                  color: Colors.amber[900],
+                  fontSize: 18,
+                ),
               ),
               for (String line in widget.item['stanza_$index'])
                 Text(
@@ -121,16 +122,13 @@ class _DetailPageState extends State<DetailPage> {
           onPressed();
         },
         tooltip: "Nyimbo Pendwa",
-        backgroundColor: Theme.of(context).colorScheme.primaryContainer,
+        backgroundColor: Theme.of(context).colorScheme.primary,
         shape: const CircleBorder(),
         child: Icon(
           widget.favouritesList.contains(widget.itemList!.indexOf(widget.item))
               ? Icons.favorite
               : Icons.favorite_border,
-          color: widget.favouritesList
-                  .contains(widget.itemList!.indexOf(widget.item))
-              ? Colors.red
-              : Theme.of(context).colorScheme.onPrimaryContainer,
+          color: Theme.of(context).colorScheme.secondary,
         ),
       ),
     );

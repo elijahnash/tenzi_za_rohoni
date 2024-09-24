@@ -5,6 +5,7 @@ import 'package:in_app_review/in_app_review.dart';
 import 'package:rate_my_app/rate_my_app.dart';
 import 'package:tenzi_za_rohoni/screens/app_drawer.dart';
 import 'package:tenzi_za_rohoni/screens/details_page.dart';
+import 'package:tenzi_za_rohoni/utils/colors.dart';
 import 'package:tenzi_za_rohoni/utils/search.dart';
 
 void main() {
@@ -19,12 +20,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Tenzi za Rohoni',
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(
-          seedColor: Colors.amber,
-        ),
-        useMaterial3: true,
-      ),
+      theme: lightTheme,
+      // darkTheme: darkTheme,
       home: const ClickableListScreen(),
     );
   }
@@ -34,8 +31,7 @@ class ClickableListScreen extends StatefulWidget {
   const ClickableListScreen({super.key});
 
   @override
-  // ignore: library_private_types_in_public_api
-  _ClickableListScreenState createState() => _ClickableListScreenState();
+  State<ClickableListScreen> createState() => _ClickableListScreenState();
 }
 
 class _ClickableListScreenState extends State<ClickableListScreen> {
@@ -113,7 +109,7 @@ class _ClickableListScreenState extends State<ClickableListScreen> {
     });
   }
 
-  void _iconButtonPressed(index) {
+  void iconButtonPressed(index) {
     setState(() {
       if (favouritesList.contains(index)) {
         favouritesList.remove(index);
@@ -130,11 +126,11 @@ class _ClickableListScreenState extends State<ClickableListScreen> {
       return Scaffold(
         appBar: AppBar(
           title: const Text('Tenzi za Rohoni'),
-          backgroundColor: Theme.of(context).colorScheme.onPrimaryContainer,
+          backgroundColor: Theme.of(context).colorScheme.primaryContainer,
         ),
         body: Center(
           child: CircularProgressIndicator(
-            color: Theme.of(context).colorScheme.primaryContainer,
+            color: Theme.of(context).colorScheme.primary,
           ), // Show a loading indicator while loading the JSON data
         ),
       );
@@ -145,7 +141,7 @@ class _ClickableListScreenState extends State<ClickableListScreen> {
         title: Text(
           'Tenzi za Rohoni',
           style: TextStyle(
-            color: Theme.of(context).colorScheme.onPrimaryContainer,
+            color: Theme.of(context).colorScheme.onPrimary,
           ),
         ),
         backgroundColor: Theme.of(context).colorScheme.primaryContainer,
@@ -164,6 +160,8 @@ class _ClickableListScreenState extends State<ClickableListScreen> {
                   searchResults: _searchResults,
                   searchQuery: _searchQuery,
                   updateSearchResults: _updateSearchResults,
+                  favouritesList: favouritesList,
+                  iconButtonPressed: iconButtonPressed,
                 ),
               );
             },
@@ -173,7 +171,7 @@ class _ClickableListScreenState extends State<ClickableListScreen> {
       drawer: AppDrawer(
         favouritesList: favouritesList,
         itemList: itemList,
-        iconButtonPressed: _iconButtonPressed,
+        iconButtonPressed: iconButtonPressed,
       ),
       body: ListView.builder(
         itemCount: itemList!.length,
@@ -189,7 +187,7 @@ class _ClickableListScreenState extends State<ClickableListScreen> {
                     : Theme.of(context).colorScheme.secondary,
               ),
               onPressed: () {
-                _iconButtonPressed(index);
+                iconButtonPressed(index);
               },
             ),
             title: Text(itemList![index]['title']),
@@ -213,7 +211,7 @@ class _ClickableListScreenState extends State<ClickableListScreen> {
                     item: itemList![index],
                     favouritesList: favouritesList,
                     itemList: itemList,
-                    iconButtonPressed: _iconButtonPressed,
+                    iconButtonPressed: iconButtonPressed,
                   ),
                 ),
               );

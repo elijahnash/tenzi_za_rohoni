@@ -10,11 +10,12 @@ class AppDrawer extends StatelessWidget {
   final ValueChanged<void> iconButtonPressed;
   final InAppReview inAppReview = InAppReview.instance;
 
-  AppDrawer(
-      {super.key,
-      required this.itemList,
-      required this.favouritesList,
-      required this.iconButtonPressed});
+  AppDrawer({
+    super.key,
+    required this.itemList,
+    required this.favouritesList,
+    required this.iconButtonPressed,
+  });
 
   @override
   Widget build(BuildContext context) {

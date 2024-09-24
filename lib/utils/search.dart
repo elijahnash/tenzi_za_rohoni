@@ -63,15 +63,19 @@ class SongSearch {
 // Custom SearchDelegate for song search
 class SongSearchDelegate extends SearchDelegate<Map<String, dynamic>> {
   final List<Map<String, dynamic>> itemList;
+  final List<int> favouritesList;
   final List<Map<String, dynamic>> searchResults;
   final String searchQuery;
   final Function(String) updateSearchResults;
+  final ValueChanged<void> iconButtonPressed;
 
   SongSearchDelegate({
     required this.itemList,
+    required this.favouritesList,
     required this.searchResults,
     required this.searchQuery,
     required this.updateSearchResults,
+    required this.iconButtonPressed,
   });
 
   @override
@@ -81,9 +85,10 @@ class SongSearchDelegate extends SearchDelegate<Map<String, dynamic>> {
       IconButton(
         icon: const Icon(Icons.clear),
         onPressed: () {
-          query = ''; // Clear the search query
-          updateSearchResults(
-              ''); // Update the search results with an empty query
+          // Clear the search query
+          query = '';
+          // Update the search results with an empty query
+          updateSearchResults('');
         },
       ),
     ];
@@ -103,60 +108,46 @@ class SongSearchDelegate extends SearchDelegate<Map<String, dynamic>> {
     );
   }
 
-  @override
-  Widget buildResults(BuildContext context) {
-    // Filter the itemList based on the search query
-    final List<Map<String, dynamic>> searchResults =
-        SongSearch.searchSongs(itemList, query);
+  // @override
+  // Widget buildResults(BuildContext context) {
+  //   // Filter the itemList based on the search query
+  //   final List<Map<String, dynamic>> searchResults =
+  //       SongSearch.searchSongs(itemList, query);
 
-    return ListView.builder(
-      itemCount: searchResults.length,
-      itemBuilder: (BuildContext context, int index) {
-        return ListTile(
-          title: Text(searchResults[index]['title']),
-          subtitle: Text(searchResults[index]['subtitle']),
-          leading: CircleAvatar(
-            backgroundColor: Theme.of(context).colorScheme.primaryContainer,
-            child: Text(
-              (searchResults[index]['song_number']).toString(),
-              style: TextStyle(
-                fontWeight: FontWeight.bold,
-                color: Theme.of(context).colorScheme.onPrimaryContainer,
-              ),
-            ),
-          ),
-          onTap: () {
-            // Navigate to the DetailPage and pass the selected song details
-            Navigator.push(
-              context,
-              MaterialPageRoute(
-                builder: (context) => DetailPage(
-                  item: searchResults[index],
-                  favouritesList: const [],
-                  itemList: const [],
-                  iconButtonPressed: (void value) {},
-                ),
-              ),
-            );
-          },
-          // onTap: () {
-          //   // Navigate to a new page with the item's details as arguments
-          //   Navigator.push(
-          //     context,
-          //     MaterialPageRoute(
-          //       builder: (context) => DetailPage(
-          //         item: searchResults[index],
-          //         favouritesList: favouritesList,
-          //         itemList: itemList,
-          //         iconButtonPressed: _iconButtonPressed,
-          //       ),
-          //     ),
-          //   );
-          // },
-        );
-      },
-    );
-  }
+  //   return ListView.builder(
+  //     itemCount: searchResults.length,
+  //     itemBuilder: (BuildContext context, int index) {
+  //       return ListTile(
+  //         title: Text(searchResults[index]['title']),
+  //         subtitle: Text(searchResults[index]['subtitle']),
+  //         leading: CircleAvatar(
+  //           backgroundColor: Theme.of(context).colorScheme.primaryContainer,
+  //           child: Text(
+  //             (searchResults[index]['song_number']).toString(),
+  //             style: TextStyle(
+  //               fontWeight: FontWeight.bold,
+  //               color: Theme.of(context).colorScheme.onPrimaryContainer,
+  //             ),
+  //           ),
+  //         ),
+  //         onTap: () {
+  //           // Navigate to the DetailPage and pass the selected song details
+  //           Navigator.push(
+  //             context,
+  //             MaterialPageRoute(
+  //               builder: (context) => DetailPage(
+  //                 item: searchResults[index],
+  //                 favouritesList: favouritesList,
+  //                 itemList: itemList,
+  //                 iconButtonPressed: iconButtonPressed,
+  //               ),
+  //             ),
+  //           );
+  //         },
+  //       );
+  //     },
+  //   );
+  // }
 
   @override
   Widget buildSuggestions(BuildContext context) {
@@ -179,13 +170,30 @@ class SongSearchDelegate extends SearchDelegate<Map<String, dynamic>> {
             ),
           ),
           onTap: () {
-            // Update the search query and search results with the selected suggestion
-            updateSearchResults(searchSuggestions[index]['title']);
-            // Show the selected suggestion as the current search query
-            showResults(context);
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (context) => DetailPage(
+                  item: searchSuggestions[index],
+                  favouritesList: favouritesList,
+                  itemList: itemList,
+                  iconButtonPressed: iconButtonPressed,
+                ),
+              ),
+            );
+            // // Update the search query and search results with the selected suggestion
+            // updateSearchResults(searchSuggestions[index]['title']);
+            // // Show the selected suggestion as the current search query
+            // showResults(context);
           },
         );
       },
     );
+  }
+
+  @override
+  Widget buildResults(BuildContext context) {
+    // TODO: implement buildResults
+    throw UnimplementedError();
   }
 }
