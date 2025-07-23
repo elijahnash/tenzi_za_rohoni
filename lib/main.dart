@@ -56,13 +56,36 @@ class _ClickableListScreenState extends State<ClickableListScreen> {
     super.initState();
     _rateMyApp.init().then((_) async {
       if (_rateMyApp.shouldOpenDialog) {
-        if (await inAppReview.isAvailable()) {
-          inAppReview.requestReview();
-        }
+        WidgetsBinding.instance.addPostFrameCallback((_) {
+          _showRateDialog();
+        });
       }
     });
     loadJsonData(); // Call the method to load JSON data
     loadFavourites();
+  }
+
+  void _showRateDialog() {
+    _rateMyApp.showRateDialog(
+      context,
+      title: 'Unapenda Tenzi za Rohoni?',
+      message: 'Tafadhali chukua muda kutupatia tathmini yako!',
+      rateButton: 'KAGUA SASA',
+      noButton: 'HAPANA ASANTE',
+      laterButton: 'BAADAYE',
+      listener: (button) {
+        if (button == RateMyAppDialogButton.rate) {
+          inAppReview.isAvailable().then((available) {
+            if (available) {
+              inAppReview.requestReview();
+            }
+          });
+        }
+        return true;
+      },
+      dialogStyle: const DialogStyle(),
+      onDismissed: () => null,
+    );
   }
 
   // Method to update the search results
