@@ -26,7 +26,7 @@ class AboutTenzi extends StatelessWidget {
             ),
             const SizedBox(height: 10),
             const Text(
-              'Toleo 2.0.0',
+              'Toleo 2.0.1',
               style: TextStyle(fontSize: 16),
             ),
             const SizedBox(height: 20),
@@ -43,7 +43,7 @@ class AboutTenzi extends StatelessWidget {
             ),
             const SizedBox(height: 10),
             Text(
-              'tenzi_za_rohoni@mydeals.co.ke',
+              'tenzi@liliputtech.com',
               style: TextStyle(color: Theme.of(context).colorScheme.secondary),
             ),
             const SizedBox(height: 20),
@@ -67,7 +67,7 @@ class AboutTenzi extends StatelessWidget {
   void _sendEmail() async {
     final Uri emailLaunchUri = Uri(
       scheme: 'mailto',
-      path: 'tenzi_za_rohoni@mydeals.co.ke',
+      path: 'tenzi@liliputtech.com',
       queryParameters: {
         'subject':
             'Maoni ya Programu: Tenzi za Rohoni', // You can customize the subject
