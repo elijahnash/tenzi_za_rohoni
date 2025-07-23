@@ -165,6 +165,7 @@ class _ClickableListScreenState extends State<ClickableListScreen> {
           'Tenzi za Rohoni',
           style: TextStyle(
             color: Theme.of(context).colorScheme.onPrimary,
+            fontWeight: FontWeight.bold,
           ),
         ),
         backgroundColor: Theme.of(context).colorScheme.primaryContainer,
@@ -196,51 +197,76 @@ class _ClickableListScreenState extends State<ClickableListScreen> {
         itemList: itemList,
         iconButtonPressed: iconButtonPressed,
       ),
-      body: ListView.builder(
-        itemCount: itemList!.length,
-        itemBuilder: (BuildContext context, int index) {
-          return ListTile(
-            trailing: IconButton(
-              icon: Icon(
-                favouritesList.contains(index)
-                    ? Icons.favorite
-                    : Icons.favorite_border,
-                color: favouritesList.contains(index)
-                    ? Colors.red
-                    : Theme.of(context).colorScheme.secondary,
+      body: Container(
+        decoration: BoxDecoration(
+          gradient: LinearGradient(
+            begin: Alignment.topLeft,
+            end: Alignment.bottomRight,
+            colors: [
+              Colors.white,
+              Colors.amber.withOpacity(0.05),
+            ],
+          ),
+        ),
+        child: ListView.builder(
+          itemCount: itemList!.length,
+          itemBuilder: (BuildContext context, int index) {
+            return ListTile(
+              trailing: IconButton(
+                icon: Icon(
+                  favouritesList.contains(index)
+                      ? Icons.favorite
+                      : Icons.favorite_border,
+                  color: favouritesList.contains(index)
+                      ? Colors.red
+                      : Theme.of(context).colorScheme.secondary,
+                ),
+                onPressed: () {
+                  iconButtonPressed(index);
+                },
               ),
-              onPressed: () {
-                iconButtonPressed(index);
-              },
-            ),
-            title: Text(itemList![index]['title']),
-            subtitle: Text(itemList![index]['subtitle']),
-            leading: CircleAvatar(
-              backgroundColor: Theme.of(context).colorScheme.primaryContainer,
-              child: Text(
-                (itemList![index]['song_number']).toString(),
-                style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  color: Theme.of(context).colorScheme.onPrimaryContainer,
+              title: Text(
+                itemList![index]['title'],
+                style: const TextStyle(
+                  fontFamily: 'Roboto',
+                  fontSize: 18,
+                  fontWeight: FontWeight.w600,
                 ),
               ),
-            ),
-            onTap: () {
-              // Navigate to a new page with the item's details as arguments
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (context) => DetailPage(
-                    item: itemList![index],
-                    favouritesList: favouritesList,
-                    itemList: itemList,
-                    iconButtonPressed: iconButtonPressed,
+              subtitle: Text(
+                itemList![index]['subtitle'],
+                style: const TextStyle(
+                  fontFamily: 'Roboto',
+                  fontSize: 15,
+                  fontWeight: FontWeight.w400,
+                ),
+              ),
+              leading: CircleAvatar(
+                backgroundColor: Theme.of(context).colorScheme.primaryContainer,
+                child: Text(
+                  (itemList![index]['song_number']).toString(),
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    color: Theme.of(context).colorScheme.onPrimaryContainer,
                   ),
                 ),
-              );
-            },
-          );
-        },
+              ),
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => DetailPage(
+                      item: itemList![index],
+                      favouritesList: favouritesList,
+                      itemList: itemList,
+                      iconButtonPressed: iconButtonPressed,
+                    ),
+                  ),
+                );
+              },
+            );
+          },
+        ),
       ),
     );
   }
