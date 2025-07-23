@@ -1,9 +1,19 @@
 name: tenzi_za_rohoni
 description: Kitabu cha tenzi za Rohoni
 
+# Vidokezo vya Toleo (Release Notes)
+#
+# - Mandhari mpya ya kisasa na rangi laini
+# - Maboresho ya ukurasa wa maelezo na ukurasa wa nyimbo pendwa
+# - Uwezo wa kutathmini/kupima app moja kwa moja
+# - Utafutaji wa nyimbo kwa urahisi
+# - Orodha ya nyimbo pendwa na kuhifadhi chaguo zako
+# - Kushiriki nyimbo kwa urahisi
+# - Maboresho ya utendaji na marekebisho ya hitilafu ndogo
+
 publish_to: "none"
 
-version: 2.0.1+1
+version: 2.0.1+6
 
 environment:
   sdk: ">=3.0.6 <4.0.0"

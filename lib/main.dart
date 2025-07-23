@@ -84,7 +84,7 @@ class _ClickableListScreenState extends State<ClickableListScreen> {
         return true;
       },
       dialogStyle: const DialogStyle(),
-      onDismissed: () => null,
+      onDismissed: () {},
     );
   }
 
